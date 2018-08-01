@@ -1,0 +1,32 @@
+{% if not detailItems %}
+    {%
+        set detailItems = [
+            {
+                Name: "James",
+                Age: 24,
+                Student: false,
+                Position: 'ITS3',
+                MoreInfo: 'more',
+                AnotherProp: 'another'
+            }
+        ]
+    %}
+{% endif %}
+
+<section class="{{ detailsClass }}">
+    <header class="smart-details--header">
+        <h3 class="smart-details--heading">Details</h3>
+    </header>
+    <div class="smart-details--listContainer">
+        {% for detailItem in detailItems %}
+            <dl class="smart-details--list">
+                {% for key, value in detailItem %}
+                    <div class="smart-details--detail">
+                        <dt class="smart-details--detailKey">{{ key }}</dt>
+                        <dd class="smart-details--detailValue">{{ value }}</dd>
+                    </div>
+                {% endfor %}
+            </dl>
+        {% endfor %}
+    </div>
+</section>

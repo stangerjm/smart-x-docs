@@ -1,0 +1,33 @@
+{% if not firstTab and not secondTab %}
+    {% set firstTab = true %}
+{% endif %}
+
+{% if firstTab %}
+    {% set firstTabClass = "smart-tabs--activeTab" %}
+    {% set firstActionClass = "smart-tabs--activeAction" %}
+    {% set firstItemClass = "smart-tabs--activeItem" %}
+{% endif %}
+
+{% if secondTab %}
+    {% set secondTabClass = "smart-tabs--activeTab" %}
+    {% set secondActionClass = "smart-tabs--activeAction" %}
+    {% set secondItemClass = "smart-tabs--activeItem" %}
+{% endif %}
+<section class="smart-tabs">
+    <nav class="smart-tabs--nav">
+        <ul class="smart-tabs--tabList">
+            <li class="smart-tabs--tab {{ firstTabClass }}">Technician Certification History</li>
+            <li class="smart-tabs--tab {{ secondTabClass }}">Technician Action History</li>
+        </ul>
+        <a href="/path/to/certHistory" class="smart-tabs--action bit-btn bit-btn-add {{ firstActionClass }}">Add</a>
+        <a href="/path/to/actionHistory" class="smart-tabs--action bit-btn bit-btn-add {{ secondActionClass }}">Add</a>
+    </nav>
+    <article class="smart-tabs--content">
+        <div class="smart-tabs--item {{ firstItemClass }}">
+            {% include 'smart-table.njk' %}
+        </div>
+        <div class="smart-tabs--item{{ secondItemClass }}">
+            {% include 'smart-table.njk' %}
+        </div>
+    </article>
+</section>

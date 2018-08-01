@@ -1,0 +1,2190 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <title>smart-search | Smart-X-Styles Documentation</title>
+
+  <link href="assets/img/favicon.ico" rel="shortcut icon">
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600|Source+Sans+Pro:400,400i,700,700i" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/webpack/app_styles.min.css" />
+
+  
+
+  
+    <!-- Custom trackingCode -->
+    <script src="/smart-x-sass/herman-overrides.js"></script>
+  
+</head>
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" hidden>
+  <symbol id="icon-logo" viewBox="0 0 16 16">
+    <path d="M.2 8L0 7.8v-.2C.8 6.9 1.9 5.9 2.7 5l.4.3c-.5.8-1.1 1.6-1.8 2.3 1 1.2 1 1.3 1.7 2.4l-.4.3c-.4-.4-.5-.6-1-1C1 8.6 1.1 8.7.2 8zM13 10c.6-1.1.7-1.1 1.7-2.4-.6-.6-1.3-1.5-1.7-2.3l.3-.3c.8.8 1.8 1.8 2.7 2.6v.2l-.8.7c-.3.3-1.2 1.1-1.8 1.7L13 10z"/><path d="M2.6 13.1H3c.9 0 1.1-.2 1.1-1.4V4.2c0-1.1-.2-1.4-1.1-1.4h-.4v-.6h4.5v.7h-.3c-.9 0-1.1.2-1.1 1.4v3.2h4.6V4.2c0-1.1-.2-1.4-1.1-1.4h-.3v-.6h4.5v.7H13c-.9 0-1.1.2-1.1 1.4v7.5c0 1.1.2 1.4 1.1 1.4h.4v.7H8.9v-.7h.3c.9 0 1.1-.2 1.1-1.4V8.2H5.7v3.5c0 1.1.2 1.4 1.1 1.4h.3v.7H2.6v-.7z"/>
+  </symbol>
+  <symbol id="icon-menu" viewBox="0 0 24 28">
+    <path d="M24 21v2c0 .547-.453 1-1 1H1c-.547 0-1-.453-1-1v-2c0-.547.453-1 1-1h22c.547 0 1 .453 1 1zm0-8v2c0 .547-.453 1-1 1H1c-.547 0-1-.453-1-1v-2c0-.547.453-1 1-1h22c.547 0 1 .453 1 1zm0-8v2c0 .547-.453 1-1 1H1c-.547 0-1-.453-1-1V5c0-.547.453-1 1-1h22c.547 0 1 .453 1 1z"/>
+  </symbol>
+</svg>
+
+  <div data-region="app">
+    <header data-region="banner">
+      
+  <button data-nav-toggle data-toggle="button" aria-controls="nav" aria-pressed="false" type="button" data-toggle-synced="false">
+    
+  <svg data-icon="menu" data-icon-size="nav-icon" ><title>menu</title><use xlink:href="#icon-menu" />
+  </svg>
+
+  </button>
+
+
+      <div class="project-title">
+        <a href="index.html" rel="home" class="project-name">Smart-X-Styles</a>
+        
+          <span class="project-version">1.0.0</span>
+        
+      </div>
+    </header>
+
+    <div data-region="container">
+      
+  <nav data-region="nav" data-toggle="target" id="nav" data-target-id="nav" aria-expanded="false" data-auto-closing="false" data-auto-closing-on-any-click="false">
+    <form action="search.html">
+      <input type="text" name="q" placeholder="Search…" required minlength="3">
+    </form>
+
+    <div class="nav-subsection">
+      <h3 class="nav-home">
+        
+        <a href="index.html" data-nav="is-not-active">Smart-X-Styles</a>
+      </h3>
+
+      
+      
+    </div>
+
+    
+    <div class="nav-subsection">
+      <ul>
+  
+  
+    <li class="nav-item">
+      <a href="base.html" data-nav="is-not-active">base</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="bit-buttons.html" data-nav="is-not-active">bit-buttons</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="bit-drop-list.html" data-nav="is-not-active">bit-drop-list</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="bit-icons.html" data-nav="is-not-active">bit-icons</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="bit-input.html" data-nav="is-not-active">bit-input</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="bit-link.html" data-nav="is-not-active">bit-link</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="bit-loading.html" data-nav="is-not-active">bit-loading</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="block-action-container.html" data-nav="is-not-active">block-action-container</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="block-multi-select.html" data-nav="is-not-active">block-multi-select</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="block-nav-list.html" data-nav="is-not-active">block-nav-list</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="configuration.html" data-nav="is-not-active">configuration</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="layout.html" data-nav="is-not-active">layout</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="mixins.html" data-nav="is-not-active">mixins</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="smart-accordion.html" data-nav="is-not-active">smart-accordion</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="smart-details.html" data-nav="is-not-active">smart-details</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="smart-footer.html" data-nav="is-not-active">smart-footer</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="smart-form.html" data-nav="is-not-active">smart-form</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="smart-modal.html" data-nav="is-not-active">smart-modal</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="smart-nav.html" data-nav="is-not-active">smart-nav</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="smart-search.html" data-nav="is-active">smart-search</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="smart-table.html" data-nav="is-not-active">smart-table</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="smart-tabs.html" data-nav="is-not-active">smart-tabs</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="variables.html" data-nav="is-not-active">variables</a>
+    </li>
+  </ul>
+    </div>
+
+    
+    
+
+    
+      <aside class="footer-credit">
+        <a href="http://oddbird.net/herman/" class="footer-icon">
+          
+  <svg data-icon="logo" data-icon-size="footer-logo" ><use xlink:href="#icon-logo" />
+  </svg>
+
+        </a>
+        <span>
+          Documented with
+          <a href="http://oddbird.net/herman/" class="footer-link">
+            Herman
+          </a>
+        </span>
+        <span>
+          by
+          <a href="http://oddbird.net/" class="footer-link">
+            OddBird
+          </a>
+        </span>
+      </aside>
+    
+  </nav>
+
+
+      <main data-region="main">
+        
+  <nav class="breadcrumb">
+    
+    <a href="index.html" >Smart-X-Styles</a> »
+    <strong>smart-search</strong>
+  </nav>
+
+
+        <div data-page="smart-search">
+          
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+<section class="item" id="css--.smart-search">
+  
+    
+  
+  
+
+  
+  
+  
+  
+
+  <div data-item-section="header">
+    <h2 class="item-title">
+      
+        <span class="item-type"></span>
+      
+
+      
+        <a href="#css--.smart-search" class="item-name">.smart-search</a>
+      
+
+      
+
+      
+    </h2>
+
+    
+  
+
+
+    
+    
+    
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            scss
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-scss">.smart-search {
+  background: $theme-generic;
+}</code></pre>
+    </div>
+  
+
+    
+  
+  
+  
+  
+
+  
+    <div class="text-block">
+      <p>Defines a container that will hold all of the search components.
+<br>*Note: the state will be toggled by clicking the search button, and will be managed via<span class="widont">&nbsp;</span>JavaScript.</p>
+
+      
+  
+
+      
+  
+    
+    <section class="summary-subsection">
+      <h3 class="summary-subtitle">Author:</h3>
+      <ul class="subsection-details">
+        
+          <li><p>James Stanger</p>
+</li>
+        
+      </ul>
+    </section>
+  
+
+      
+  
+
+    </div>
+  
+
+  </div>
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  
+  
+    
+
+    <div data-item-section="examples">
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Examples</span>
+      </h3>
+
+      
+        
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <div class="example">
+    <div class="example-code">
+      
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            njk
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-jinja">&lt;!-- Default state --&gt;
+{% include &#39;smart-search.njk&#39; %}</code></pre>
+    </div>
+  
+
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            html
+          </span>
+
+          
+            <span class='code-description'>
+              compiled
+            </span>
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-html">&lt;!-- Default state --&gt;
+&lt;form action=&quot;#&quot; class=&quot;smart-search&quot;&gt;
+  &lt;header class=&quot;smart-search--heading&quot;&gt;
+     &lt;h2 class=&quot;smart-search--title&quot;&gt;Search - Collapsed State&lt;/h2&gt; &lt;span class=&quot;smart-search--action bit-icon-search&quot;&gt;&lt;/span&gt;
+  &lt;/header&gt;
+  &lt;!-- NOTE: The style attribute below SHOULD NOT be set in a real application. This is for demonstration purposes only. --&gt;
+  &lt;div class=&quot;smart-search--fieldContainer is-hidden&quot; style=&quot;&quot;&gt;
+    &lt;div class=&quot;smart-search--toggleContainer&quot;&gt;
+      &lt;div class=&quot;smart-search--field bit-input&quot;&gt;
+        &lt;label class=&quot;bit-input--label&quot; for=&quot;Name&quot;&gt;Name&lt;/label&gt;
+        &lt;input class=&quot;bit-input--field&quot; id=&quot;Name&quot; type=&quot;text&quot; value=&quot;&quot;&gt;
+      &lt;/div&gt;
+      &lt;button class=&quot;bit-btn bit-btn-search&quot; type=&quot;submit&quot;&gt;Search&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/form&gt;</code></pre>
+    </div>
+  
+
+    </div>
+
+    
+      <div class="example-render">
+        <iframe class="render-example" srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  &lt;base target=&quot;_parent&quot;&gt;
+
+  &lt;title&gt;example&lt;/title&gt;
+
+  
+
+  
+    &lt;!-- Custom CSS --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/custom/styles.css&quot; /&gt;
+  
+&lt;/head&gt;
+&lt;body class=&quot;sassdoc&quot;&gt;
+  
+  &lt;!-- Default state --&gt;
+&lt;form action=&quot;#&quot; class=&quot;smart-search&quot;&gt;
+  &lt;header class=&quot;smart-search--heading&quot;&gt;
+     &lt;h2 class=&quot;smart-search--title&quot;&gt;Search - Collapsed State&lt;/h2&gt; &lt;span class=&quot;smart-search--action bit-icon-search&quot;&gt;&lt;/span&gt;
+  &lt;/header&gt;
+  &lt;!-- NOTE: The style attribute below SHOULD NOT be set in a real application. This is for demonstration purposes only. --&gt;
+  &lt;div class=&quot;smart-search--fieldContainer is-hidden&quot; style=&quot;&quot;&gt;
+    &lt;div class=&quot;smart-search--toggleContainer&quot;&gt;
+      &lt;div class=&quot;smart-search--field bit-input&quot;&gt;
+        &lt;label class=&quot;bit-input--label&quot; for=&quot;Name&quot;&gt;Name&lt;/label&gt;
+        &lt;input class=&quot;bit-input--field&quot; id=&quot;Name&quot; type=&quot;text&quot; value=&quot;&quot;&gt;
+      &lt;/div&gt;
+      &lt;button class=&quot;bit-btn bit-btn-search&quot; type=&quot;submit&quot;&gt;Search&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+" width="100%" height="0"></iframe>
+      </div>
+    
+  </div>
+
+      
+        
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <div class="example">
+    <div class="example-code">
+      
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            njk
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-jinja">&lt;!-- Expanded state --&gt;
+{% set isExpanded = true %}
+{% include &#39;smart-search.njk&#39; %}</code></pre>
+    </div>
+  
+
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            html
+          </span>
+
+          
+            <span class='code-description'>
+              compiled
+            </span>
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-html">&lt;!-- Expanded state --&gt;
+&lt;form action=&quot;#&quot; class=&quot;smart-search&quot;&gt;
+  &lt;header class=&quot;smart-search--heading&quot;&gt;
+     &lt;h2 class=&quot;smart-search--title&quot;&gt;Search - Expanded State&lt;/h2&gt; &lt;span class=&quot;smart-search--action bit-icon-exit&quot;&gt;&lt;/span&gt;
+  &lt;/header&gt;
+  &lt;!-- NOTE: The style attribute below SHOULD NOT be set in a real application. This is for demonstration purposes only. --&gt;
+  &lt;div class=&quot;smart-search--fieldContainer &quot; style=&quot;height: 115px&quot;&gt;
+    &lt;div class=&quot;smart-search--toggleContainer&quot;&gt;
+      &lt;div class=&quot;smart-search--field bit-input&quot;&gt;
+        &lt;label class=&quot;bit-input--label&quot; for=&quot;Name&quot;&gt;Name&lt;/label&gt;
+        &lt;input class=&quot;bit-input--field&quot; id=&quot;Name&quot; type=&quot;text&quot; value=&quot;&quot;&gt;
+      &lt;/div&gt;
+      &lt;button class=&quot;bit-btn bit-btn-search&quot; type=&quot;submit&quot;&gt;Search&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/form&gt;</code></pre>
+    </div>
+  
+
+    </div>
+
+    
+      <div class="example-render">
+        <iframe class="render-example" srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  &lt;base target=&quot;_parent&quot;&gt;
+
+  &lt;title&gt;example&lt;/title&gt;
+
+  
+
+  
+    &lt;!-- Custom CSS --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/custom/styles.css&quot; /&gt;
+  
+&lt;/head&gt;
+&lt;body class=&quot;sassdoc&quot;&gt;
+  
+  &lt;!-- Expanded state --&gt;
+&lt;form action=&quot;#&quot; class=&quot;smart-search&quot;&gt;
+  &lt;header class=&quot;smart-search--heading&quot;&gt;
+     &lt;h2 class=&quot;smart-search--title&quot;&gt;Search - Expanded State&lt;/h2&gt; &lt;span class=&quot;smart-search--action bit-icon-exit&quot;&gt;&lt;/span&gt;
+  &lt;/header&gt;
+  &lt;!-- NOTE: The style attribute below SHOULD NOT be set in a real application. This is for demonstration purposes only. --&gt;
+  &lt;div class=&quot;smart-search--fieldContainer &quot; style=&quot;height: 115px&quot;&gt;
+    &lt;div class=&quot;smart-search--toggleContainer&quot;&gt;
+      &lt;div class=&quot;smart-search--field bit-input&quot;&gt;
+        &lt;label class=&quot;bit-input--label&quot; for=&quot;Name&quot;&gt;Name&lt;/label&gt;
+        &lt;input class=&quot;bit-input--field&quot; id=&quot;Name&quot; type=&quot;text&quot; value=&quot;&quot;&gt;
+      &lt;/div&gt;
+      &lt;button class=&quot;bit-btn bit-btn-search&quot; type=&quot;submit&quot;&gt;Search&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+" width="100%" height="0"></iframe>
+      </div>
+    
+  </div>
+
+      
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+    
+  <div data-item-section="requires">
+    
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Requires</span>
+        
+      </h3>
+    
+
+    
+      
+      
+        
+        
+        
+
+        
+          
+          
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  <div class="param-list">
+    <h4 class="param-title">
+      
+      
+        <a href="
+  configuration.html#variable--theme-generic" class="item-name">$theme-generic</a>
+      
+      
+      <span class="value-type">(Color)</span>
+      
+    </h4>
+
+    
+  </div>
+
+
+        
+      
+    
+  </div>
+
+  
+    
+  
+
+  
+
+  
+  
+
+
+  
+  
+
+  
+  
+
+</section>
+
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+<section class="item" id="css--.smart-search--heading">
+  
+    
+  
+  
+
+  
+  
+  
+  
+
+  <div data-item-section="header">
+    <h2 class="item-title">
+      
+        <span class="item-type"></span>
+      
+
+      
+        <a href="#css--.smart-search--heading" class="item-name">.smart-search--heading</a>
+      
+
+      
+
+      
+    </h2>
+
+    
+  
+
+
+    
+    
+    
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            scss
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-scss">.smart-search--heading {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 10px;
+}</code></pre>
+    </div>
+  
+
+    
+  
+  
+  
+  
+
+  
+    <div class="text-block">
+      <p>Defines a container for the header of the smart-search<span class="widont">&nbsp;</span>component.</p>
+
+      
+  
+
+      
+  
+    
+    <section class="summary-subsection">
+      <h3 class="summary-subtitle">Author:</h3>
+      <ul class="subsection-details">
+        
+          <li><p>James Stanger</p>
+</li>
+        
+      </ul>
+    </section>
+  
+
+      
+  
+
+    </div>
+  
+
+  </div>
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  
+  
+    
+
+    <div data-item-section="examples">
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Example</span>
+      </h3>
+
+      
+        
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <div class="example">
+    <div class="example-code">
+      
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            html
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-html">&lt;header class=&quot;smart-search--heading&quot;&gt;
+  &lt;h2 class=&quot;smart-search--heading&quot;&gt;Search&lt;/h2&gt;
+  &lt;span class=&quot;smart-search--action bit-icon-search&quot;&gt;&lt;/span&gt;
+&lt;/header&gt;</code></pre>
+    </div>
+  
+
+    </div>
+
+    
+      <div class="example-render">
+        <iframe class="render-example" srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  &lt;base target=&quot;_parent&quot;&gt;
+
+  &lt;title&gt;example&lt;/title&gt;
+
+  
+
+  
+    &lt;!-- Custom CSS --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/custom/styles.css&quot; /&gt;
+  
+&lt;/head&gt;
+&lt;body class=&quot;sassdoc&quot;&gt;
+  
+  &lt;header class=&quot;smart-search--heading&quot;&gt;
+   &lt;h2 class=&quot;smart-search--heading&quot;&gt;Search&lt;/h2&gt;
+ &lt;span class=&quot;smart-search--action bit-icon-search&quot;&gt;&lt;/span&gt;
+
+&lt;/header&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+" width="100%" height="0"></iframe>
+      </div>
+    
+  </div>
+
+      
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+    
+  
+
+  
+
+  
+  
+
+
+  
+  
+
+  
+  
+
+</section>
+
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+<section class="item" id="css--.smart-search--title">
+  
+    
+  
+  
+
+  
+  
+  
+  
+
+  <div data-item-section="header">
+    <h2 class="item-title">
+      
+        <span class="item-type"></span>
+      
+
+      
+        <a href="#css--.smart-search--title" class="item-name">.smart-search--title</a>
+      
+
+      
+
+      
+    </h2>
+
+    
+  
+
+
+    
+    
+    
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            scss
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-scss">.smart-search--title {
+  margin-right: 10px;
+
+  @media screen and (max-width: $break-med) {
+    /* Force other items to next row */
+    width: 100%;
+  }
+}</code></pre>
+    </div>
+  
+
+    
+  
+  
+  
+  
+
+  
+    <div class="text-block">
+      <p>Styles the title of a smart-search<span class="widont">&nbsp;</span>component.</p>
+
+      
+  
+
+      
+  
+    
+    <section class="summary-subsection">
+      <h3 class="summary-subtitle">Author:</h3>
+      <ul class="subsection-details">
+        
+          <li><p>James Stanger</p>
+</li>
+        
+      </ul>
+    </section>
+  
+
+      
+  
+
+    </div>
+  
+
+  </div>
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  
+  
+    
+
+    <div data-item-section="examples">
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Example</span>
+      </h3>
+
+      
+        
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <div class="example">
+    <div class="example-code">
+      
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            html
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-html">&lt;h3 class=&quot;smart-search--title&quot;&gt;Search&lt;/h3&gt;</code></pre>
+    </div>
+  
+
+    </div>
+
+    
+      <div class="example-render">
+        <iframe class="render-example" srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  &lt;base target=&quot;_parent&quot;&gt;
+
+  &lt;title&gt;example&lt;/title&gt;
+
+  
+
+  
+    &lt;!-- Custom CSS --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/custom/styles.css&quot; /&gt;
+  
+&lt;/head&gt;
+&lt;body class=&quot;sassdoc&quot;&gt;
+  
+  &lt;h3 class=&quot;smart-search--title&quot;&gt;Search&lt;/h3&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+" width="100%" height="0"></iframe>
+      </div>
+    
+  </div>
+
+      
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+    
+  <div data-item-section="requires">
+    
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Requires</span>
+        
+      </h3>
+    
+
+    
+      
+      
+        
+        
+        
+
+        
+          
+          
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  <div class="param-list">
+    <h4 class="param-title">
+      
+      
+        <a href="
+  variables.html#variable--break-med" class="item-name">$break-med</a>
+      
+      
+      <span class="value-type">(Number)</span>
+      
+    </h4>
+
+    
+  </div>
+
+
+        
+      
+    
+  </div>
+
+  
+    
+  
+
+  
+
+  
+  
+
+
+  
+  
+
+  
+  
+
+</section>
+
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+<section class="item" id="css--.smart-search--action">
+  
+    
+  
+  
+
+  
+  
+  
+  
+
+  <div data-item-section="header">
+    <h2 class="item-title">
+      
+        <span class="item-type"></span>
+      
+
+      
+        <a href="#css--.smart-search--action" class="item-name">.smart-search--action</a>
+      
+
+      
+
+      
+    </h2>
+
+    
+  
+
+
+    
+    
+    
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            scss
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-scss">.smart-search--action {
+  /* Align action button to the right */
+  margin: 10px 10px 10px auto;
+}</code></pre>
+    </div>
+  
+
+    
+  
+  
+  
+  
+
+  
+    <div class="text-block">
+      <p>Styles the action buttons on the smart-search<span class="widont">&nbsp;</span>header.</p>
+
+      
+  
+
+      
+  
+    
+    <section class="summary-subsection">
+      <h3 class="summary-subtitle">Author:</h3>
+      <ul class="subsection-details">
+        
+          <li><p>James Stanger</p>
+</li>
+        
+      </ul>
+    </section>
+  
+
+      
+  
+
+    </div>
+  
+
+  </div>
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  
+  
+    
+
+    <div data-item-section="examples">
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Example</span>
+      </h3>
+
+      
+        
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <div class="example">
+    <div class="example-code">
+      
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            html
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-html">&lt;span class=&quot;smart-search--action bit-icon-search&quot;&gt;&lt;/span&gt;</code></pre>
+    </div>
+  
+
+    </div>
+
+    
+      <div class="example-render">
+        <iframe class="render-example" srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  &lt;base target=&quot;_parent&quot;&gt;
+
+  &lt;title&gt;example&lt;/title&gt;
+
+  
+
+  
+    &lt;!-- Custom CSS --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/custom/styles.css&quot; /&gt;
+  
+&lt;/head&gt;
+&lt;body class=&quot;sassdoc&quot;&gt;
+  
+  &lt;span class=&quot;smart-search--action bit-icon-search&quot;&gt;&lt;/span&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+" width="100%" height="0"></iframe>
+      </div>
+    
+  </div>
+
+      
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+    
+  
+
+  
+
+  
+  
+
+
+  
+  
+
+  
+  
+
+</section>
+
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+<section class="item" id="css--.smart-search--fieldContainer">
+  
+    
+  
+  
+
+  
+  
+  
+  
+
+  <div data-item-section="header">
+    <h2 class="item-title">
+      
+        <span class="item-type"></span>
+      
+
+      
+        <a href="#css--.smart-search--fieldContainer" class="item-name">.smart-search--fieldContainer</a>
+      
+
+      
+
+      
+    </h2>
+
+    
+  
+
+
+    
+    
+    
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            scss
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-scss">.smart-search--fieldContainer {
+  overflow: hidden;
+  position: relative;
+  transition: min-height 600ms;
+}</code></pre>
+    </div>
+  
+
+    
+  
+  
+  
+  
+
+  
+    <div class="text-block">
+      <p>Defines a container that will encompass all fields
+<br>*Note: primary purpose is to hide and position its immediate child: .smart-search–toggleContainer.
+<br>*Note: the height of this container is dynamically set via JavaScript so that it remains<span class="widont">&nbsp;</span>responsive.</p>
+
+      
+  
+
+      
+  
+    
+    <section class="summary-subsection">
+      <h3 class="summary-subtitle">Author:</h3>
+      <ul class="subsection-details">
+        
+          <li><p>James Stanger</p>
+</li>
+        
+      </ul>
+    </section>
+  
+
+      
+  
+
+    </div>
+  
+
+  </div>
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  
+  
+    
+
+    <div data-item-section="examples">
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Example</span>
+      </h3>
+
+      
+        
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <div class="example">
+    <div class="example-code">
+      
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            markup
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-markup">&lt;div class=&quot;smart-search--fieldContainer&quot;&gt;
+  &lt;div class=&quot;smart-search--toggleContainer&quot;&gt;...&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+    </div>
+  
+
+    </div>
+
+    
+  </div>
+
+      
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+    
+  
+
+  
+
+  
+  
+
+
+  
+  
+
+  
+  
+
+</section>
+
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+<section class="item" id="css--.smart-search--field">
+  
+    
+  
+  
+
+  
+  
+  
+  
+
+  <div data-item-section="header">
+    <h2 class="item-title">
+      
+        <span class="item-type"></span>
+      
+
+      
+        <a href="#css--.smart-search--field" class="item-name">.smart-search--field</a>
+      
+
+      
+
+      
+    </h2>
+
+    
+  
+
+
+    
+    
+    
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            scss
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-scss">.smart-search--field {
+  width: 100%;
+  padding: 5px;
+}</code></pre>
+    </div>
+  
+
+    
+  
+  
+  
+  
+
+  
+    <div class="text-block">
+      <p>Styles a field of the search bar. Serves as a wrapper for the bit-input component.
+<br>*Note: should be used in combination with .bit-input<span class="widont">&nbsp;</span>component.</p>
+
+      
+  
+
+      
+  
+    
+    <section class="summary-subsection">
+      <h3 class="summary-subtitle">Author:</h3>
+      <ul class="subsection-details">
+        
+          <li><p>James Stanger</p>
+</li>
+        
+      </ul>
+    </section>
+  
+
+      
+  
+
+    </div>
+  
+
+  </div>
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  
+  
+    
+
+    <div data-item-section="examples">
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Example</span>
+      </h3>
+
+      
+        
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <div class="example">
+    <div class="example-code">
+      
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            njk
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-jinja">{% set inputClass = &#39;smart-search--field bit-input&#39; %}
+{% set key = &#39;Name&#39; %}
+{% set type = &#39;text&#39; %}
+{% include &#39;bit-input.njk&#39; %}</code></pre>
+    </div>
+  
+
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            html
+          </span>
+
+          
+            <span class='code-description'>
+              compiled
+            </span>
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-html">&lt;div class=&quot;smart-search--field bit-input&quot;&gt;
+  &lt;label class=&quot;bit-input--label&quot; for=&quot;Name&quot;&gt;Name&lt;/label&gt;
+  &lt;input class=&quot;bit-input--field&quot; id=&quot;Name&quot; type=&quot;text&quot; value=&quot;&quot;&gt;
+&lt;/div&gt;</code></pre>
+    </div>
+  
+
+    </div>
+
+    
+      <div class="example-render">
+        <iframe class="render-example" srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  &lt;base target=&quot;_parent&quot;&gt;
+
+  &lt;title&gt;example&lt;/title&gt;
+
+  
+
+  
+    &lt;!-- Custom CSS --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/custom/styles.css&quot; /&gt;
+  
+&lt;/head&gt;
+&lt;body class=&quot;sassdoc&quot;&gt;
+  
+  &lt;div class=&quot;smart-search--field bit-input&quot;&gt;
+  &lt;label class=&quot;bit-input--label&quot; for=&quot;Name&quot;&gt;Name&lt;/label&gt;
+  &lt;input class=&quot;bit-input--field&quot; id=&quot;Name&quot; type=&quot;text&quot; value=&quot;&quot;&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+" width="100%" height="0"></iframe>
+      </div>
+    
+  </div>
+
+      
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+    
+  
+
+  
+
+  
+  
+
+
+  
+  
+
+  
+  
+
+</section>
+
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+<section class="item" id="css--.smart-search--toggleContainer">
+  
+    
+  
+  
+
+  
+  
+  
+  
+
+  <div data-item-section="header">
+    <h2 class="item-title">
+      
+        <span class="item-type"></span>
+      
+
+      
+        <a href="#css--.smart-search--toggleContainer" class="item-name">.smart-search--toggleContainer</a>
+      
+
+      
+
+      
+    </h2>
+
+    
+  
+
+
+    
+    
+    
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            scss
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-scss">.smart-search--toggleContainer {
+  position: absolute;
+  padding: 10px;
+  transition: transform 800ms ease-in-out;
+  box-sizing: border-box;
+  width: 100%;
+}</code></pre>
+    </div>
+  
+
+    
+  
+  
+  
+  
+
+  
+    <div class="text-block">
+      <p>Defines a container that will slide in and out of view when toggled.
+<br>*Note: toggle functionality is handled in<span class="widont">&nbsp;</span>JavaScript.</p>
+
+      
+  
+
+      
+  
+    
+    <section class="summary-subsection">
+      <h3 class="summary-subtitle">Author:</h3>
+      <ul class="subsection-details">
+        
+          <li><p>James Stanger</p>
+</li>
+        
+      </ul>
+    </section>
+  
+
+      
+  
+
+    </div>
+  
+
+  </div>
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  
+  
+    
+
+    <div data-item-section="examples">
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Example</span>
+      </h3>
+
+      
+        
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <div class="example">
+    <div class="example-code">
+      
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            markup
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-markup">&lt;div class=&quot;smart-search--fieldContainer&quot;&gt;
+  &lt;div class=&quot;smart-search--toggleContainer&quot;&gt;
+    &lt;!-- FIELDS GO HERE --&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+    </div>
+  
+
+    </div>
+
+    
+  </div>
+
+      
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+    
+  
+
+  
+
+  
+  
+
+
+  
+  
+
+  
+  
+
+</section>
+
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+<section class="item" id="css--.is-hidden">
+  
+    
+  
+  
+
+  
+  
+  
+  
+
+  <div data-item-section="header">
+    <h2 class="item-title">
+      
+        <span class="item-type"></span>
+      
+
+      
+        <a href="#css--.is-hidden" class="item-name">.is-hidden</a>
+      
+
+      
+
+      
+    </h2>
+
+    
+  
+
+
+    
+    
+    
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            scss
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-scss">.is-hidden {
+  min-height: 0;
+
+  &amp; &gt; .smart-search--toggleContainer {
+    transform: translateY(-800px);
+  }
+}</code></pre>
+    </div>
+  
+
+    
+  
+  
+  
+  
+
+  
+    <div class="text-block">
+      <p>The class that is applied to smart-search–fieldContainer to hide the toggle container and to toggle the search button
+<br>*Note: this class is toggled on the smart-search–fieldContainer via JavaScript on click
+<br>*Note: this should be put on the smart-search–fieldContainer in the markup if it SHOULD NOT be expanded by<span class="widont">&nbsp;</span>default.</p>
+
+      
+  
+
+      
+  
+    
+    <section class="summary-subsection">
+      <h3 class="summary-subtitle">Author:</h3>
+      <ul class="subsection-details">
+        
+          <li><p>James Stanger</p>
+</li>
+        
+      </ul>
+    </section>
+  
+
+      
+  
+
+    </div>
+  
+
+  </div>
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  
+  
+
+
+  
+  
+  
+  
+    
+    
+  
+
+  
+
+  
+  
+
+
+  
+  
+
+  
+  
+
+</section>
+
+  
+
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="assets/webpack/runtime.min.js"></script>
+  <script type="text/javascript" src="assets/webpack/common.min.js"></script>
+  <script type="text/javascript" src="assets/webpack/app.min.js"></script>
+  
+</body>
+</html>

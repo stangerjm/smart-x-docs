@@ -1,0 +1,7 @@
+<ul class="bit-dropList">
+    {% for inlineItem in inlineItems %}
+        <li class="bit-dropList--item">
+            <a class="bit-link" href="{{ inlineItem.linkPath }}">{{ inlineItem.itemTitle }}</a>
+        </li>
+    {% endfor %}
+</ul>

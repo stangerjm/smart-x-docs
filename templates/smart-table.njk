@@ -1,0 +1,39 @@
+{% if not items %}
+    {% set items = [
+        {name: 'James', age: 24, isEmployee: true},
+        {name: 'Jenna', age: 23, isEmployee: false}
+    ] %}
+{% endif %}
+
+{% if isExpanded %}
+    {% set rowClass = "record-is-expanded" %}
+{% endif %}
+
+<table class="smart-table">
+    <tr class="smart-table--row smart-table--head">
+        {% for key, value in items[0] %}
+            <th class="smart-table--heading">
+                <a href="/path/to/controller" class="smart-table--link bit-icon-sort">{{ key }}</a>
+            </th>
+        {% endfor %}
+    </tr>
+    {% for item in items %}
+        <tr class="smart-table--row {{ rowClass }}">
+            <td class="smart-table--cell smart-table--key">
+                <span class="smart-table--inlineHeading">Name: </span>
+                {{ item.name }}
+            </td>
+            <td class="smart-table--cell smart-table--key">
+                <span class="smart-table--inlineHeading">Age: </span>
+                {{ item.age }}
+            </td>
+            <td class="smart-table--cell">
+                <span class="smart-table--inlineHeading">Employee: </span>
+                {{ item.isEmployee }}
+            </td>
+            <td class="smart-table--expand">
+                <button class="bit-btn bit-btn-expand"></button>
+            </td>
+        </tr>
+    {% endfor %}
+</table>

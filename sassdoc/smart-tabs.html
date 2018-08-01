@@ -1,0 +1,2811 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <title>smart-tabs | Smart-X-Styles Documentation</title>
+
+  <link href="assets/img/favicon.ico" rel="shortcut icon">
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600|Source+Sans+Pro:400,400i,700,700i" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/webpack/app_styles.min.css" />
+
+  
+
+  
+    <!-- Custom trackingCode -->
+    <script src="/smart-x-sass/herman-overrides.js"></script>
+  
+</head>
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" hidden>
+  <symbol id="icon-logo" viewBox="0 0 16 16">
+    <path d="M.2 8L0 7.8v-.2C.8 6.9 1.9 5.9 2.7 5l.4.3c-.5.8-1.1 1.6-1.8 2.3 1 1.2 1 1.3 1.7 2.4l-.4.3c-.4-.4-.5-.6-1-1C1 8.6 1.1 8.7.2 8zM13 10c.6-1.1.7-1.1 1.7-2.4-.6-.6-1.3-1.5-1.7-2.3l.3-.3c.8.8 1.8 1.8 2.7 2.6v.2l-.8.7c-.3.3-1.2 1.1-1.8 1.7L13 10z"/><path d="M2.6 13.1H3c.9 0 1.1-.2 1.1-1.4V4.2c0-1.1-.2-1.4-1.1-1.4h-.4v-.6h4.5v.7h-.3c-.9 0-1.1.2-1.1 1.4v3.2h4.6V4.2c0-1.1-.2-1.4-1.1-1.4h-.3v-.6h4.5v.7H13c-.9 0-1.1.2-1.1 1.4v7.5c0 1.1.2 1.4 1.1 1.4h.4v.7H8.9v-.7h.3c.9 0 1.1-.2 1.1-1.4V8.2H5.7v3.5c0 1.1.2 1.4 1.1 1.4h.3v.7H2.6v-.7z"/>
+  </symbol>
+  <symbol id="icon-menu" viewBox="0 0 24 28">
+    <path d="M24 21v2c0 .547-.453 1-1 1H1c-.547 0-1-.453-1-1v-2c0-.547.453-1 1-1h22c.547 0 1 .453 1 1zm0-8v2c0 .547-.453 1-1 1H1c-.547 0-1-.453-1-1v-2c0-.547.453-1 1-1h22c.547 0 1 .453 1 1zm0-8v2c0 .547-.453 1-1 1H1c-.547 0-1-.453-1-1V5c0-.547.453-1 1-1h22c.547 0 1 .453 1 1z"/>
+  </symbol>
+</svg>
+
+  <div data-region="app">
+    <header data-region="banner">
+      
+  <button data-nav-toggle data-toggle="button" aria-controls="nav" aria-pressed="false" type="button" data-toggle-synced="false">
+    
+  <svg data-icon="menu" data-icon-size="nav-icon" ><title>menu</title><use xlink:href="#icon-menu" />
+  </svg>
+
+  </button>
+
+
+      <div class="project-title">
+        <a href="index.html" rel="home" class="project-name">Smart-X-Styles</a>
+        
+          <span class="project-version">1.0.0</span>
+        
+      </div>
+    </header>
+
+    <div data-region="container">
+      
+  <nav data-region="nav" data-toggle="target" id="nav" data-target-id="nav" aria-expanded="false" data-auto-closing="false" data-auto-closing-on-any-click="false">
+    <form action="search.html">
+      <input type="text" name="q" placeholder="Search…" required minlength="3">
+    </form>
+
+    <div class="nav-subsection">
+      <h3 class="nav-home">
+        
+        <a href="index.html" data-nav="is-not-active">Smart-X-Styles</a>
+      </h3>
+
+      
+      
+    </div>
+
+    
+    <div class="nav-subsection">
+      <ul>
+  
+  
+    <li class="nav-item">
+      <a href="base.html" data-nav="is-not-active">base</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="bit-buttons.html" data-nav="is-not-active">bit-buttons</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="bit-drop-list.html" data-nav="is-not-active">bit-drop-list</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="bit-icons.html" data-nav="is-not-active">bit-icons</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="bit-input.html" data-nav="is-not-active">bit-input</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="bit-link.html" data-nav="is-not-active">bit-link</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="bit-loading.html" data-nav="is-not-active">bit-loading</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="block-action-container.html" data-nav="is-not-active">block-action-container</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="block-multi-select.html" data-nav="is-not-active">block-multi-select</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="block-nav-list.html" data-nav="is-not-active">block-nav-list</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="configuration.html" data-nav="is-not-active">configuration</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="layout.html" data-nav="is-not-active">layout</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="mixins.html" data-nav="is-not-active">mixins</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="smart-accordion.html" data-nav="is-not-active">smart-accordion</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="smart-details.html" data-nav="is-not-active">smart-details</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="smart-footer.html" data-nav="is-not-active">smart-footer</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="smart-form.html" data-nav="is-not-active">smart-form</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="smart-modal.html" data-nav="is-not-active">smart-modal</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="smart-nav.html" data-nav="is-not-active">smart-nav</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="smart-search.html" data-nav="is-not-active">smart-search</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="smart-table.html" data-nav="is-not-active">smart-table</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="smart-tabs.html" data-nav="is-active">smart-tabs</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="variables.html" data-nav="is-not-active">variables</a>
+    </li>
+  </ul>
+    </div>
+
+    
+    
+
+    
+      <aside class="footer-credit">
+        <a href="http://oddbird.net/herman/" class="footer-icon">
+          
+  <svg data-icon="logo" data-icon-size="footer-logo" ><use xlink:href="#icon-logo" />
+  </svg>
+
+        </a>
+        <span>
+          Documented with
+          <a href="http://oddbird.net/herman/" class="footer-link">
+            Herman
+          </a>
+        </span>
+        <span>
+          by
+          <a href="http://oddbird.net/" class="footer-link">
+            OddBird
+          </a>
+        </span>
+      </aside>
+    
+  </nav>
+
+
+      <main data-region="main">
+        
+  <nav class="breadcrumb">
+    
+    <a href="index.html" >Smart-X-Styles</a> »
+    <strong>smart-tabs</strong>
+  </nav>
+
+
+        <div data-page="smart-tabs">
+          
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+<section class="item" id="css--.smart-tabs">
+  
+    
+  
+  
+
+  
+  
+  
+  
+
+  <div data-item-section="header">
+    <h2 class="item-title">
+      
+        <span class="item-type"></span>
+      
+
+      
+        <a href="#css--.smart-tabs" class="item-name">.smart-tabs</a>
+      
+
+      
+
+      
+    </h2>
+
+    
+  
+
+
+    
+    
+    
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            scss
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-scss">.smart-tabs {
+  display: flex;
+  flex-direction: column;
+}</code></pre>
+    </div>
+  
+
+    
+  
+  
+  
+  
+
+  
+    <div class="text-block">
+      <p>Defines a container for a tabbed content area
+<br> *NOTE: The smart-tabs element associates the first tab, item, and action as a group. Similarly it will
+associate the second tab, item and action as a group and so on. This is done via<span class="widont">&nbsp;</span>JavaScript.</p>
+
+      
+  
+
+      
+  
+    
+    <section class="summary-subsection">
+      <h3 class="summary-subtitle">Author:</h3>
+      <ul class="subsection-details">
+        
+          <li><p>James Stanger</p>
+</li>
+        
+      </ul>
+    </section>
+  
+
+      
+  
+
+    </div>
+  
+
+  </div>
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  
+  
+    
+
+    <div data-item-section="examples">
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Examples</span>
+      </h3>
+
+      
+        
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <div class="example">
+    <div class="example-code">
+      
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            njk
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-jinja">{% include &#39;smart-tabs.njk&#39; %}</code></pre>
+    </div>
+  
+
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            html
+          </span>
+
+          
+            <span class='code-description'>
+              compiled
+            </span>
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-html">&lt;section class=&quot;smart-tabs&quot;&gt;
+  &lt;nav class=&quot;smart-tabs--nav&quot;&gt;
+    &lt;ul class=&quot;smart-tabs--tabList&quot;&gt;
+      &lt;li class=&quot;smart-tabs--tab smart-tabs--activeTab&quot;&gt;Technician Certification History&lt;/li&gt;
+      &lt;li class=&quot;smart-tabs--tab &quot;&gt;Technician Action History&lt;/li&gt;
+    &lt;/ul&gt; &lt;a href=&quot;/path/to/certHistory&quot; class=&quot;smart-tabs--action bit-btn bit-btn-add smart-tabs--activeAction&quot;&gt;Add&lt;/a&gt; &lt;a href=&quot;/path/to/actionHistory&quot; class=&quot;smart-tabs--action bit-btn bit-btn-add &quot;&gt;Add&lt;/a&gt;
+  &lt;/nav&gt;
+  &lt;article class=&quot;smart-tabs--content&quot;&gt;
+    &lt;div class=&quot;smart-tabs--item smart-tabs--activeItem&quot;&gt;
+      &lt;table class=&quot;smart-table&quot;&gt;
+        &lt;tr class=&quot;smart-table--row smart-table--head&quot;&gt;
+          &lt;th class=&quot;smart-table--heading&quot;&gt; &lt;a href=&quot;/path/to/controller&quot; class=&quot;smart-table--link bit-icon-sort&quot;&gt;name&lt;/a&gt;
+          &lt;/th&gt;
+          &lt;th class=&quot;smart-table--heading&quot;&gt; &lt;a href=&quot;/path/to/controller&quot; class=&quot;smart-table--link bit-icon-sort&quot;&gt;age&lt;/a&gt;
+          &lt;/th&gt;
+          &lt;th class=&quot;smart-table--heading&quot;&gt; &lt;a href=&quot;/path/to/controller&quot; class=&quot;smart-table--link bit-icon-sort&quot;&gt;isEmployee&lt;/a&gt;
+          &lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&quot;smart-table--row &quot;&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Name: &lt;/span&gt;James&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Age: &lt;/span&gt;24&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Employee: &lt;/span&gt;true&lt;/td&gt;
+          &lt;td class=&quot;smart-table--expand&quot;&gt;
+            &lt;button class=&quot;bit-btn bit-btn-expand&quot;&gt;&lt;/button&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&quot;smart-table--row &quot;&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Name: &lt;/span&gt;Jenna&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Age: &lt;/span&gt;23&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Employee: &lt;/span&gt;false&lt;/td&gt;
+          &lt;td class=&quot;smart-table--expand&quot;&gt;
+            &lt;button class=&quot;bit-btn bit-btn-expand&quot;&gt;&lt;/button&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/table&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;smart-tabs--item&quot;&gt;
+      &lt;table class=&quot;smart-table&quot;&gt;
+        &lt;tr class=&quot;smart-table--row smart-table--head&quot;&gt;
+          &lt;th class=&quot;smart-table--heading&quot;&gt; &lt;a href=&quot;/path/to/controller&quot; class=&quot;smart-table--link bit-icon-sort&quot;&gt;name&lt;/a&gt;
+          &lt;/th&gt;
+          &lt;th class=&quot;smart-table--heading&quot;&gt; &lt;a href=&quot;/path/to/controller&quot; class=&quot;smart-table--link bit-icon-sort&quot;&gt;age&lt;/a&gt;
+          &lt;/th&gt;
+          &lt;th class=&quot;smart-table--heading&quot;&gt; &lt;a href=&quot;/path/to/controller&quot; class=&quot;smart-table--link bit-icon-sort&quot;&gt;isEmployee&lt;/a&gt;
+          &lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&quot;smart-table--row &quot;&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Name: &lt;/span&gt;James&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Age: &lt;/span&gt;24&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Employee: &lt;/span&gt;true&lt;/td&gt;
+          &lt;td class=&quot;smart-table--expand&quot;&gt;
+            &lt;button class=&quot;bit-btn bit-btn-expand&quot;&gt;&lt;/button&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&quot;smart-table--row &quot;&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Name: &lt;/span&gt;Jenna&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Age: &lt;/span&gt;23&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Employee: &lt;/span&gt;false&lt;/td&gt;
+          &lt;td class=&quot;smart-table--expand&quot;&gt;
+            &lt;button class=&quot;bit-btn bit-btn-expand&quot;&gt;&lt;/button&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/table&gt;
+    &lt;/div&gt;
+  &lt;/article&gt;
+&lt;/section&gt;</code></pre>
+    </div>
+  
+
+    </div>
+
+    
+      <div class="example-render">
+        <iframe class="render-example" srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  &lt;base target=&quot;_parent&quot;&gt;
+
+  &lt;title&gt;example&lt;/title&gt;
+
+  
+
+  
+    &lt;!-- Custom CSS --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/custom/styles.css&quot; /&gt;
+  
+&lt;/head&gt;
+&lt;body class=&quot;sassdoc&quot;&gt;
+  
+  &lt;section class=&quot;smart-tabs&quot;&gt;
+  &lt;nav class=&quot;smart-tabs--nav&quot;&gt;
+    &lt;ul class=&quot;smart-tabs--tabList&quot;&gt;
+      &lt;li class=&quot;smart-tabs--tab smart-tabs--activeTab&quot;&gt;Technician Certification History&lt;/li&gt;
+      &lt;li class=&quot;smart-tabs--tab &quot;&gt;Technician Action History&lt;/li&gt;
+    &lt;/ul&gt; &lt;a href=&quot;/path/to/certHistory&quot; class=&quot;smart-tabs--action bit-btn bit-btn-add smart-tabs--activeAction&quot;&gt;Add&lt;/a&gt; &lt;a href=&quot;/path/to/actionHistory&quot; class=&quot;smart-tabs--action bit-btn bit-btn-add &quot;&gt;Add&lt;/a&gt;
+  &lt;/nav&gt;
+  &lt;article class=&quot;smart-tabs--content&quot;&gt;
+    &lt;div class=&quot;smart-tabs--item smart-tabs--activeItem&quot;&gt;
+      &lt;table class=&quot;smart-table&quot;&gt;
+        &lt;tr class=&quot;smart-table--row smart-table--head&quot;&gt;
+          &lt;th class=&quot;smart-table--heading&quot;&gt; &lt;a href=&quot;/path/to/controller&quot; class=&quot;smart-table--link bit-icon-sort&quot;&gt;name&lt;/a&gt;
+          &lt;/th&gt;
+          &lt;th class=&quot;smart-table--heading&quot;&gt; &lt;a href=&quot;/path/to/controller&quot; class=&quot;smart-table--link bit-icon-sort&quot;&gt;age&lt;/a&gt;
+          &lt;/th&gt;
+          &lt;th class=&quot;smart-table--heading&quot;&gt; &lt;a href=&quot;/path/to/controller&quot; class=&quot;smart-table--link bit-icon-sort&quot;&gt;isEmployee&lt;/a&gt;
+          &lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&quot;smart-table--row &quot;&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Name: &lt;/span&gt;James&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Age: &lt;/span&gt;24&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Employee: &lt;/span&gt;true&lt;/td&gt;
+          &lt;td class=&quot;smart-table--expand&quot;&gt;
+            &lt;button class=&quot;bit-btn bit-btn-expand&quot;&gt;&lt;/button&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&quot;smart-table--row &quot;&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Name: &lt;/span&gt;Jenna&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Age: &lt;/span&gt;23&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Employee: &lt;/span&gt;false&lt;/td&gt;
+          &lt;td class=&quot;smart-table--expand&quot;&gt;
+            &lt;button class=&quot;bit-btn bit-btn-expand&quot;&gt;&lt;/button&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/table&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;smart-tabs--item&quot;&gt;
+      &lt;table class=&quot;smart-table&quot;&gt;
+        &lt;tr class=&quot;smart-table--row smart-table--head&quot;&gt;
+          &lt;th class=&quot;smart-table--heading&quot;&gt; &lt;a href=&quot;/path/to/controller&quot; class=&quot;smart-table--link bit-icon-sort&quot;&gt;name&lt;/a&gt;
+          &lt;/th&gt;
+          &lt;th class=&quot;smart-table--heading&quot;&gt; &lt;a href=&quot;/path/to/controller&quot; class=&quot;smart-table--link bit-icon-sort&quot;&gt;age&lt;/a&gt;
+          &lt;/th&gt;
+          &lt;th class=&quot;smart-table--heading&quot;&gt; &lt;a href=&quot;/path/to/controller&quot; class=&quot;smart-table--link bit-icon-sort&quot;&gt;isEmployee&lt;/a&gt;
+          &lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&quot;smart-table--row &quot;&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Name: &lt;/span&gt;James&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Age: &lt;/span&gt;24&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Employee: &lt;/span&gt;true&lt;/td&gt;
+          &lt;td class=&quot;smart-table--expand&quot;&gt;
+            &lt;button class=&quot;bit-btn bit-btn-expand&quot;&gt;&lt;/button&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&quot;smart-table--row &quot;&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Name: &lt;/span&gt;Jenna&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Age: &lt;/span&gt;23&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Employee: &lt;/span&gt;false&lt;/td&gt;
+          &lt;td class=&quot;smart-table--expand&quot;&gt;
+            &lt;button class=&quot;bit-btn bit-btn-expand&quot;&gt;&lt;/button&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/table&gt;
+    &lt;/div&gt;
+  &lt;/article&gt;
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+" width="100%" height="0"></iframe>
+      </div>
+    
+  </div>
+
+      
+        
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <div class="example">
+    <div class="example-code">
+      
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            njk
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-jinja">{% set secondTab = true %}
+{% include &#39;smart-tabs.njk&#39; %}</code></pre>
+    </div>
+  
+
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            html
+          </span>
+
+          
+            <span class='code-description'>
+              compiled
+            </span>
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-html">&lt;section class=&quot;smart-tabs&quot;&gt;
+  &lt;nav class=&quot;smart-tabs--nav&quot;&gt;
+    &lt;ul class=&quot;smart-tabs--tabList&quot;&gt;
+      &lt;li class=&quot;smart-tabs--tab &quot;&gt;Technician Certification History&lt;/li&gt;
+      &lt;li class=&quot;smart-tabs--tab smart-tabs--activeTab&quot;&gt;Technician Action History&lt;/li&gt;
+    &lt;/ul&gt; &lt;a href=&quot;/path/to/certHistory&quot; class=&quot;smart-tabs--action bit-btn bit-btn-add &quot;&gt;Add&lt;/a&gt; &lt;a href=&quot;/path/to/actionHistory&quot; class=&quot;smart-tabs--action bit-btn bit-btn-add smart-tabs--activeAction&quot;&gt;Add&lt;/a&gt;
+  &lt;/nav&gt;
+  &lt;article class=&quot;smart-tabs--content&quot;&gt;
+    &lt;div class=&quot;smart-tabs--item &quot;&gt;
+      &lt;table class=&quot;smart-table&quot;&gt;
+        &lt;tr class=&quot;smart-table--row smart-table--head&quot;&gt;
+          &lt;th class=&quot;smart-table--heading&quot;&gt; &lt;a href=&quot;/path/to/controller&quot; class=&quot;smart-table--link bit-icon-sort&quot;&gt;name&lt;/a&gt;
+          &lt;/th&gt;
+          &lt;th class=&quot;smart-table--heading&quot;&gt; &lt;a href=&quot;/path/to/controller&quot; class=&quot;smart-table--link bit-icon-sort&quot;&gt;age&lt;/a&gt;
+          &lt;/th&gt;
+          &lt;th class=&quot;smart-table--heading&quot;&gt; &lt;a href=&quot;/path/to/controller&quot; class=&quot;smart-table--link bit-icon-sort&quot;&gt;isEmployee&lt;/a&gt;
+          &lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&quot;smart-table--row &quot;&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Name: &lt;/span&gt;James&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Age: &lt;/span&gt;24&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Employee: &lt;/span&gt;true&lt;/td&gt;
+          &lt;td class=&quot;smart-table--expand&quot;&gt;
+            &lt;button class=&quot;bit-btn bit-btn-expand&quot;&gt;&lt;/button&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&quot;smart-table--row &quot;&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Name: &lt;/span&gt;Jenna&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Age: &lt;/span&gt;23&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Employee: &lt;/span&gt;false&lt;/td&gt;
+          &lt;td class=&quot;smart-table--expand&quot;&gt;
+            &lt;button class=&quot;bit-btn bit-btn-expand&quot;&gt;&lt;/button&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/table&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;smart-tabs--itemsmart-tabs--activeItem&quot;&gt;
+      &lt;table class=&quot;smart-table&quot;&gt;
+        &lt;tr class=&quot;smart-table--row smart-table--head&quot;&gt;
+          &lt;th class=&quot;smart-table--heading&quot;&gt; &lt;a href=&quot;/path/to/controller&quot; class=&quot;smart-table--link bit-icon-sort&quot;&gt;name&lt;/a&gt;
+          &lt;/th&gt;
+          &lt;th class=&quot;smart-table--heading&quot;&gt; &lt;a href=&quot;/path/to/controller&quot; class=&quot;smart-table--link bit-icon-sort&quot;&gt;age&lt;/a&gt;
+          &lt;/th&gt;
+          &lt;th class=&quot;smart-table--heading&quot;&gt; &lt;a href=&quot;/path/to/controller&quot; class=&quot;smart-table--link bit-icon-sort&quot;&gt;isEmployee&lt;/a&gt;
+          &lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&quot;smart-table--row &quot;&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Name: &lt;/span&gt;James&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Age: &lt;/span&gt;24&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Employee: &lt;/span&gt;true&lt;/td&gt;
+          &lt;td class=&quot;smart-table--expand&quot;&gt;
+            &lt;button class=&quot;bit-btn bit-btn-expand&quot;&gt;&lt;/button&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&quot;smart-table--row &quot;&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Name: &lt;/span&gt;Jenna&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Age: &lt;/span&gt;23&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Employee: &lt;/span&gt;false&lt;/td&gt;
+          &lt;td class=&quot;smart-table--expand&quot;&gt;
+            &lt;button class=&quot;bit-btn bit-btn-expand&quot;&gt;&lt;/button&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/table&gt;
+    &lt;/div&gt;
+  &lt;/article&gt;
+&lt;/section&gt;</code></pre>
+    </div>
+  
+
+    </div>
+
+    
+      <div class="example-render">
+        <iframe class="render-example" srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  &lt;base target=&quot;_parent&quot;&gt;
+
+  &lt;title&gt;example&lt;/title&gt;
+
+  
+
+  
+    &lt;!-- Custom CSS --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/custom/styles.css&quot; /&gt;
+  
+&lt;/head&gt;
+&lt;body class=&quot;sassdoc&quot;&gt;
+  
+  &lt;section class=&quot;smart-tabs&quot;&gt;
+  &lt;nav class=&quot;smart-tabs--nav&quot;&gt;
+    &lt;ul class=&quot;smart-tabs--tabList&quot;&gt;
+      &lt;li class=&quot;smart-tabs--tab &quot;&gt;Technician Certification History&lt;/li&gt;
+      &lt;li class=&quot;smart-tabs--tab smart-tabs--activeTab&quot;&gt;Technician Action History&lt;/li&gt;
+    &lt;/ul&gt; &lt;a href=&quot;/path/to/certHistory&quot; class=&quot;smart-tabs--action bit-btn bit-btn-add &quot;&gt;Add&lt;/a&gt; &lt;a href=&quot;/path/to/actionHistory&quot; class=&quot;smart-tabs--action bit-btn bit-btn-add smart-tabs--activeAction&quot;&gt;Add&lt;/a&gt;
+  &lt;/nav&gt;
+  &lt;article class=&quot;smart-tabs--content&quot;&gt;
+    &lt;div class=&quot;smart-tabs--item &quot;&gt;
+      &lt;table class=&quot;smart-table&quot;&gt;
+        &lt;tr class=&quot;smart-table--row smart-table--head&quot;&gt;
+          &lt;th class=&quot;smart-table--heading&quot;&gt; &lt;a href=&quot;/path/to/controller&quot; class=&quot;smart-table--link bit-icon-sort&quot;&gt;name&lt;/a&gt;
+          &lt;/th&gt;
+          &lt;th class=&quot;smart-table--heading&quot;&gt; &lt;a href=&quot;/path/to/controller&quot; class=&quot;smart-table--link bit-icon-sort&quot;&gt;age&lt;/a&gt;
+          &lt;/th&gt;
+          &lt;th class=&quot;smart-table--heading&quot;&gt; &lt;a href=&quot;/path/to/controller&quot; class=&quot;smart-table--link bit-icon-sort&quot;&gt;isEmployee&lt;/a&gt;
+          &lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&quot;smart-table--row &quot;&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Name: &lt;/span&gt;James&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Age: &lt;/span&gt;24&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Employee: &lt;/span&gt;true&lt;/td&gt;
+          &lt;td class=&quot;smart-table--expand&quot;&gt;
+            &lt;button class=&quot;bit-btn bit-btn-expand&quot;&gt;&lt;/button&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&quot;smart-table--row &quot;&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Name: &lt;/span&gt;Jenna&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Age: &lt;/span&gt;23&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Employee: &lt;/span&gt;false&lt;/td&gt;
+          &lt;td class=&quot;smart-table--expand&quot;&gt;
+            &lt;button class=&quot;bit-btn bit-btn-expand&quot;&gt;&lt;/button&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/table&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;smart-tabs--itemsmart-tabs--activeItem&quot;&gt;
+      &lt;table class=&quot;smart-table&quot;&gt;
+        &lt;tr class=&quot;smart-table--row smart-table--head&quot;&gt;
+          &lt;th class=&quot;smart-table--heading&quot;&gt; &lt;a href=&quot;/path/to/controller&quot; class=&quot;smart-table--link bit-icon-sort&quot;&gt;name&lt;/a&gt;
+          &lt;/th&gt;
+          &lt;th class=&quot;smart-table--heading&quot;&gt; &lt;a href=&quot;/path/to/controller&quot; class=&quot;smart-table--link bit-icon-sort&quot;&gt;age&lt;/a&gt;
+          &lt;/th&gt;
+          &lt;th class=&quot;smart-table--heading&quot;&gt; &lt;a href=&quot;/path/to/controller&quot; class=&quot;smart-table--link bit-icon-sort&quot;&gt;isEmployee&lt;/a&gt;
+          &lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&quot;smart-table--row &quot;&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Name: &lt;/span&gt;James&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Age: &lt;/span&gt;24&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Employee: &lt;/span&gt;true&lt;/td&gt;
+          &lt;td class=&quot;smart-table--expand&quot;&gt;
+            &lt;button class=&quot;bit-btn bit-btn-expand&quot;&gt;&lt;/button&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&quot;smart-table--row &quot;&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Name: &lt;/span&gt;Jenna&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell smart-table--key&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Age: &lt;/span&gt;23&lt;/td&gt;
+          &lt;td class=&quot;smart-table--cell&quot;&gt; &lt;span class=&quot;smart-table--inlineHeading&quot;&gt;Employee: &lt;/span&gt;false&lt;/td&gt;
+          &lt;td class=&quot;smart-table--expand&quot;&gt;
+            &lt;button class=&quot;bit-btn bit-btn-expand&quot;&gt;&lt;/button&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/table&gt;
+    &lt;/div&gt;
+  &lt;/article&gt;
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+" width="100%" height="0"></iframe>
+      </div>
+    
+  </div>
+
+      
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+    
+  
+
+  
+
+  
+  
+
+
+  
+  
+
+  
+  
+
+</section>
+
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+<section class="item" id="css--.smart-tabs--nav">
+  
+    
+  
+  
+
+  
+  
+  
+  
+
+  <div data-item-section="header">
+    <h2 class="item-title">
+      
+        <span class="item-type"></span>
+      
+
+      
+        <a href="#css--.smart-tabs--nav" class="item-name">.smart-tabs--nav</a>
+      
+
+      
+
+      
+    </h2>
+
+    
+  
+
+
+    
+    
+    
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            scss
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-scss">.smart-tabs--nav {
+  display: flex;
+  justify-content: space-between;
+}</code></pre>
+    </div>
+  
+
+    
+  
+  
+  
+  
+
+  
+    <div class="text-block">
+      <p>Defines navigation container for the tabs and<span class="widont">&nbsp;</span>action</p>
+
+      
+  
+
+      
+  
+    
+    <section class="summary-subsection">
+      <h3 class="summary-subtitle">Author:</h3>
+      <ul class="subsection-details">
+        
+          <li><p>James Stanger</p>
+</li>
+        
+      </ul>
+    </section>
+  
+
+      
+  
+
+    </div>
+  
+
+  </div>
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  
+  
+    
+
+    <div data-item-section="examples">
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Example</span>
+      </h3>
+
+      
+        
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <div class="example">
+    <div class="example-code">
+      
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            html
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-html">&lt;nav class=&quot;smart-tabs--nav&quot;&gt;
+  &lt;ul class=&quot;smart-tabs--tabList&quot;&gt;
+    &lt;li class=&quot;smart-tabs--tab smart-tabs--activeTab&quot;&gt;Technician Certification History&lt;/li&gt;
+    &lt;li class=&quot;smart-tabs--tab&quot;&gt;Technician Action History&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;a href=&quot;/path/to/certHistory&quot; class=&quot;smart-tabs--action bit-btn bit-btn-add smart-tabs--activeAction&quot;&gt;Add&lt;/a&gt;
+  &lt;a href=&quot;/path/to/actionHistory&quot; class=&quot;smart-tabs--action bit-btn bit-btn-add&quot;&gt;Add&lt;/a&gt;
+&lt;/nav&gt;</code></pre>
+    </div>
+  
+
+    </div>
+
+    
+      <div class="example-render">
+        <iframe class="render-example" srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  &lt;base target=&quot;_parent&quot;&gt;
+
+  &lt;title&gt;example&lt;/title&gt;
+
+  
+
+  
+    &lt;!-- Custom CSS --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/custom/styles.css&quot; /&gt;
+  
+&lt;/head&gt;
+&lt;body class=&quot;sassdoc&quot;&gt;
+  
+  &lt;nav class=&quot;smart-tabs--nav&quot;&gt;
+  &lt;ul class=&quot;smart-tabs--tabList&quot;&gt;
+    &lt;li class=&quot;smart-tabs--tab smart-tabs--activeTab&quot;&gt;Technician Certification History&lt;/li&gt;
+    &lt;li class=&quot;smart-tabs--tab&quot;&gt;Technician Action History&lt;/li&gt;
+  &lt;/ul&gt; &lt;a href=&quot;/path/to/certHistory&quot; class=&quot;smart-tabs--action bit-btn bit-btn-add smart-tabs--activeAction&quot;&gt;Add&lt;/a&gt;
+ &lt;a href=&quot;/path/to/actionHistory&quot; class=&quot;smart-tabs--action bit-btn bit-btn-add&quot;&gt;Add&lt;/a&gt;
+
+&lt;/nav&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+" width="100%" height="0"></iframe>
+      </div>
+    
+  </div>
+
+      
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+    
+  
+
+  
+
+  
+  
+
+
+  
+  
+
+  
+  
+
+</section>
+
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+<section class="item" id="css--.smart-tabs--tabList">
+  
+    
+  
+  
+
+  
+  
+  
+  
+
+  <div data-item-section="header">
+    <h2 class="item-title">
+      
+        <span class="item-type"></span>
+      
+
+      
+        <a href="#css--.smart-tabs--tabList" class="item-name">.smart-tabs--tabList</a>
+      
+
+      
+
+      
+    </h2>
+
+    
+  
+
+
+    
+    
+    
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            scss
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-scss">.smart-tabs--tabList {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  @media screen and (max-width: $break-med) {
+    flex-direction: column;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+}</code></pre>
+    </div>
+  
+
+    
+  
+  
+  
+  
+
+  
+    <div class="text-block">
+      <p>Defines list that contains the actual<span class="widont">&nbsp;</span>tabs</p>
+
+      
+  
+
+      
+  
+    
+    <section class="summary-subsection">
+      <h3 class="summary-subtitle">Author:</h3>
+      <ul class="subsection-details">
+        
+          <li><p>James Stanger</p>
+</li>
+        
+      </ul>
+    </section>
+  
+
+      
+  
+
+    </div>
+  
+
+  </div>
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  
+  
+    
+
+    <div data-item-section="examples">
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Example</span>
+      </h3>
+
+      
+        
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <div class="example">
+    <div class="example-code">
+      
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            html
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-html">&lt;ul class=&quot;smart-tabs--tabList&quot;&gt;
+  &lt;li class=&quot;smart-tabs--tab smart-tabs--activeTab&quot;&gt;Technician Certification History&lt;/li&gt;
+  &lt;li class=&quot;smart-tabs--tab&quot;&gt;Technician Action History&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+    </div>
+  
+
+    </div>
+
+    
+      <div class="example-render">
+        <iframe class="render-example" srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  &lt;base target=&quot;_parent&quot;&gt;
+
+  &lt;title&gt;example&lt;/title&gt;
+
+  
+
+  
+    &lt;!-- Custom CSS --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/custom/styles.css&quot; /&gt;
+  
+&lt;/head&gt;
+&lt;body class=&quot;sassdoc&quot;&gt;
+  
+  &lt;ul class=&quot;smart-tabs--tabList&quot;&gt;
+  &lt;li class=&quot;smart-tabs--tab smart-tabs--activeTab&quot;&gt;Technician Certification History&lt;/li&gt;
+  &lt;li class=&quot;smart-tabs--tab&quot;&gt;Technician Action History&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+" width="100%" height="0"></iframe>
+      </div>
+    
+  </div>
+
+      
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+    
+  <div data-item-section="requires">
+    
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Requires</span>
+        
+      </h3>
+    
+
+    
+      
+      
+        
+        
+        
+
+        
+          
+          
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  <div class="param-list">
+    <h4 class="param-title">
+      
+      
+        <a href="
+  variables.html#variable--break-med" class="item-name">$break-med</a>
+      
+      
+      <span class="value-type">(Number)</span>
+      
+    </h4>
+
+    
+  </div>
+
+
+        
+      
+    
+  </div>
+
+  
+    
+  
+
+  
+
+  
+  
+
+
+  
+  
+
+  
+  
+
+</section>
+
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+<section class="item" id="css--.smart-tabs--tab">
+  
+    
+  
+  
+
+  
+  
+  
+  
+
+  <div data-item-section="header">
+    <h2 class="item-title">
+      
+        <span class="item-type"></span>
+      
+
+      
+        <a href="#css--.smart-tabs--tab" class="item-name">.smart-tabs--tab</a>
+      
+
+      
+
+      
+    </h2>
+
+    
+  
+
+
+    
+    
+    
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            scss
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-scss">.smart-tabs--tab {
+  padding: 10px 40px;
+  margin-right: 3px;
+  background: lighten($theme-generic, 10%);
+  border-radius: 5px 5px 0  0;
+
+  &amp;:hover {
+    background: lighten($theme-generic, 5%);
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: $break-med) {
+    border-radius: 0;
+    margin-right: 0;
+
+    &amp;:first-child {
+      border-radius: 5px 5px 0 0;
+    }
+
+    &amp;:last-child {
+      border-radius: 0 0 5px 5px;
+    }
+  }
+}</code></pre>
+    </div>
+  
+
+    
+  
+  
+  
+  
+
+  
+    <div class="text-block">
+      <p>Styles a single<span class="widont">&nbsp;</span>tab</p>
+
+      
+  
+
+      
+  
+    
+    <section class="summary-subsection">
+      <h3 class="summary-subtitle">Author:</h3>
+      <ul class="subsection-details">
+        
+          <li><p>James Stanger</p>
+</li>
+        
+      </ul>
+    </section>
+  
+
+      
+  
+
+    </div>
+  
+
+  </div>
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  
+  
+    
+
+    <div data-item-section="examples">
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Example</span>
+      </h3>
+
+      
+        
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <div class="example">
+    <div class="example-code">
+      
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            html
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-html">&lt;li class=&quot;smart-tabs--tab&quot;&gt;Technician Certification History&lt;/li&gt;</code></pre>
+    </div>
+  
+
+    </div>
+
+    
+      <div class="example-render">
+        <iframe class="render-example" srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  &lt;base target=&quot;_parent&quot;&gt;
+
+  &lt;title&gt;example&lt;/title&gt;
+
+  
+
+  
+    &lt;!-- Custom CSS --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/custom/styles.css&quot; /&gt;
+  
+&lt;/head&gt;
+&lt;body class=&quot;sassdoc&quot;&gt;
+  
+  &lt;li class=&quot;smart-tabs--tab&quot;&gt;Technician Certification History&lt;/li&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+" width="100%" height="0"></iframe>
+      </div>
+    
+  </div>
+
+      
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+    
+  <div data-item-section="requires">
+    
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Requires</span>
+        
+      </h3>
+    
+
+    
+      
+      
+        
+        
+        
+
+        
+          
+          
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  <div class="param-list">
+    <h4 class="param-title">
+      
+      
+        <a href="
+  configuration.html#variable--theme-generic" class="item-name">$theme-generic</a>
+      
+      
+      <span class="value-type">(Color)</span>
+      
+    </h4>
+
+    
+  </div>
+
+
+        
+      
+        
+        
+        
+
+        
+          
+          
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  <div class="param-list">
+    <h4 class="param-title">
+      
+      
+        <a href="
+  variables.html#variable--break-med" class="item-name">$break-med</a>
+      
+      
+      <span class="value-type">(Number)</span>
+      
+    </h4>
+
+    
+  </div>
+
+
+        
+      
+    
+  </div>
+
+  
+    
+  
+
+  
+
+  
+  
+
+
+  
+  
+
+  
+  
+
+</section>
+
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+<section class="item" id="css--.smart-tabs--action">
+  
+    
+  
+  
+
+  
+  
+  
+  
+
+  <div data-item-section="header">
+    <h2 class="item-title">
+      
+        <span class="item-type"></span>
+      
+
+      
+        <a href="#css--.smart-tabs--action" class="item-name">.smart-tabs--action</a>
+      
+
+      
+
+      
+    </h2>
+
+    
+  
+
+
+    
+    
+    
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            scss
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-scss">.smart-tabs--action {
+  display: none;
+  align-self: center;
+  margin: 5px;
+
+  @media screen and (max-width: $break-med) {
+    align-self: start;
+  }
+}</code></pre>
+    </div>
+  
+
+    
+  
+  
+  
+  
+
+  
+    <div class="text-block">
+      <p>Styles an action button to be placed in the<span class="widont">&nbsp;</span>navigation</p>
+
+      
+  
+
+      
+  
+    
+    <section class="summary-subsection">
+      <h3 class="summary-subtitle">Author:</h3>
+      <ul class="subsection-details">
+        
+          <li><p>James Stanger</p>
+</li>
+        
+      </ul>
+    </section>
+  
+
+      
+  
+
+    </div>
+  
+
+  </div>
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  
+  
+    
+
+    <div data-item-section="examples">
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Example</span>
+      </h3>
+
+      
+        
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <div class="example">
+    <div class="example-code">
+      
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            markup
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-markup">&lt;a href=&quot;/path/to/certHistory&quot; class=&quot;smart-tabs--action bit-btn bit-btn-add smart-tabs--activeAction&quot;&gt;Add&lt;/a&gt;</code></pre>
+    </div>
+  
+
+    </div>
+
+    
+  </div>
+
+      
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+    
+  <div data-item-section="requires">
+    
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Requires</span>
+        
+      </h3>
+    
+
+    
+      
+      
+        
+        
+        
+
+        
+          
+          
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  <div class="param-list">
+    <h4 class="param-title">
+      
+      
+        <a href="
+  variables.html#variable--break-med" class="item-name">$break-med</a>
+      
+      
+      <span class="value-type">(Number)</span>
+      
+    </h4>
+
+    
+  </div>
+
+
+        
+      
+    
+  </div>
+
+  
+    
+  
+
+  
+
+  
+  
+
+
+  
+  
+
+  
+  
+
+</section>
+
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+<section class="item" id="css--.smart-tabs--content">
+  
+    
+  
+  
+
+  
+  
+  
+  
+
+  <div data-item-section="header">
+    <h2 class="item-title">
+      
+        <span class="item-type"></span>
+      
+
+      
+        <a href="#css--.smart-tabs--content" class="item-name">.smart-tabs--content</a>
+      
+
+      
+
+      
+    </h2>
+
+    
+  
+
+
+    
+    
+    
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            scss
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-scss">.smart-tabs--content {
+  /* Flex available content on all browsers */
+  flex: 1 0 auto;
+
+  padding: 20px;
+  background: $theme-generic;
+}</code></pre>
+    </div>
+  
+
+    
+  
+  
+  
+  
+
+  
+    <div class="text-block">
+      <p>Defines a container that will hold the content of the tabbed<span class="widont">&nbsp;</span>item</p>
+
+      
+  
+
+      
+  
+    
+    <section class="summary-subsection">
+      <h3 class="summary-subtitle">Author:</h3>
+      <ul class="subsection-details">
+        
+          <li><p>James Stanger</p>
+</li>
+        
+      </ul>
+    </section>
+  
+
+      
+  
+
+    </div>
+  
+
+  </div>
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  
+  
+    
+
+    <div data-item-section="examples">
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Example</span>
+      </h3>
+
+      
+        
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <div class="example">
+    <div class="example-code">
+      
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            markup
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-markup">&lt;section class=&quot;smart-tabs&quot;&gt;
+  &lt;nav class=&quot;smart-tabs--nav&quot;&gt;...&lt;/nav&gt;
+  &lt;article class=&quot;smart-tabs--content&quot;&gt;
+    &lt;!-- Content goes here! --&gt;
+  &lt;/article&gt;
+&lt;/section&gt;</code></pre>
+    </div>
+  
+
+    </div>
+
+    
+  </div>
+
+      
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+    
+  <div data-item-section="requires">
+    
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Requires</span>
+        
+      </h3>
+    
+
+    
+      
+      
+        
+        
+        
+
+        
+          
+          
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  <div class="param-list">
+    <h4 class="param-title">
+      
+      
+        <a href="
+  configuration.html#variable--theme-generic" class="item-name">$theme-generic</a>
+      
+      
+      <span class="value-type">(Color)</span>
+      
+    </h4>
+
+    
+  </div>
+
+
+        
+      
+    
+  </div>
+
+  
+    
+  
+
+  
+
+  
+  
+
+
+  
+  
+
+  
+  
+
+</section>
+
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+<section class="item" id="css--.smart-tabs--item">
+  
+    
+  
+  
+
+  
+  
+  
+  
+
+  <div data-item-section="header">
+    <h2 class="item-title">
+      
+        <span class="item-type"></span>
+      
+
+      
+        <a href="#css--.smart-tabs--item" class="item-name">.smart-tabs--item</a>
+      
+
+      
+
+      
+    </h2>
+
+    
+  
+
+
+    
+    
+    
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            scss
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-scss">.smart-tabs--item {
+  display: none;
+}</code></pre>
+    </div>
+  
+
+    
+  
+  
+  
+  
+
+  
+    <div class="text-block">
+      <p>Defines container for an item associated with a corresponding<span class="widont">&nbsp;</span>tab.</p>
+
+      
+  
+
+      
+  
+    
+    <section class="summary-subsection">
+      <h3 class="summary-subtitle">Author:</h3>
+      <ul class="subsection-details">
+        
+          <li><p>James Stanger</p>
+</li>
+        
+      </ul>
+    </section>
+  
+
+      
+  
+
+    </div>
+  
+
+  </div>
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  
+  
+    
+
+    <div data-item-section="examples">
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Example</span>
+      </h3>
+
+      
+        
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <div class="example">
+    <div class="example-code">
+      
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            markup
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-markup">&lt;section class=&quot;smart-tabs&quot;&gt;
+  &lt;nav class=&quot;smart-tabs--nav&quot;&gt;...&lt;/nav&gt;
+  &lt;article class=&quot;smart-tabs--content&quot;&gt;
+    &lt;div class=&quot;smart-tabs--item&quot;&gt;
+      &lt;!-- Item one content goes here --&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;smart-tabs--item&quot;&gt;
+      &lt;!-- Item two content goes here --&gt;
+    &lt;/div&gt;
+  &lt;/article&gt;
+&lt;/section&gt;</code></pre>
+    </div>
+  
+
+    </div>
+
+    
+  </div>
+
+      
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+    
+  
+
+  
+
+  
+  
+
+
+  
+  
+
+  
+  
+
+</section>
+
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+<section class="item" id="css--.smart-tabs--activeItem%2C%0A.smart-tabs--activeAction">
+  
+    
+  
+  
+
+  
+  
+  
+  
+
+  <div data-item-section="header">
+    <h2 class="item-title">
+      
+        <span class="item-type"></span>
+      
+
+      
+        <a href="#css--.smart-tabs--activeItem%2C%0A.smart-tabs--activeAction" class="item-name">.smart-tabs--activeItem,
+.smart-tabs--activeAction</a>
+      
+
+      
+
+      
+    </h2>
+
+    
+  
+
+
+    
+    
+    
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            scss
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-scss">.smart-tabs--activeItem,
+.smart-tabs--activeAction {
+  display: block;
+}</code></pre>
+    </div>
+  
+
+    
+  
+  
+  
+  
+
+  
+    <div class="text-block">
+      <p>Sets styles for an active item and<span class="widont">&nbsp;</span>action</p>
+
+      
+  
+
+      
+  
+    
+    <section class="summary-subsection">
+      <h3 class="summary-subtitle">Author:</h3>
+      <ul class="subsection-details">
+        
+          <li><p>James Stanger</p>
+</li>
+        
+      </ul>
+    </section>
+  
+
+      
+  
+
+    </div>
+  
+
+  </div>
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  
+  
+    
+
+    <div data-item-section="examples">
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Example</span>
+      </h3>
+
+      
+        
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <div class="example">
+    <div class="example-code">
+      
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            markup
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-markup">&lt;div class=&quot;smart-tabs--item smart-tabs--activeItem&quot;&gt;...&lt;/div&gt;
+&lt;a href=&quot;...&quot; class=&quot;smart-tabs--action smart-tabs--activeAction&quot;&gt;...&lt;/a&gt;</code></pre>
+    </div>
+  
+
+    </div>
+
+    
+  </div>
+
+      
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+    
+  
+
+  
+
+  
+  
+
+
+  
+  
+
+  
+  
+
+</section>
+
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+<section class="item" id="css--.smart-tabs--activeTab">
+  
+    
+  
+  
+
+  
+  
+  
+  
+
+  <div data-item-section="header">
+    <h2 class="item-title">
+      
+        <span class="item-type"></span>
+      
+
+      
+        <a href="#css--.smart-tabs--activeTab" class="item-name">.smart-tabs--activeTab</a>
+      
+
+      
+
+      
+    </h2>
+
+    
+  
+
+
+    
+    
+    
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            scss
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-scss">.smart-tabs--activeTab {
+  background: $theme-generic;
+
+  &amp;:hover {
+    /* Ensure active tab stays the same color on hover */
+    background: $theme-generic;
+  }
+}</code></pre>
+    </div>
+  
+
+    
+  
+  
+  
+  
+
+  
+    <div class="text-block">
+      <p>Sets styles for an active<span class="widont">&nbsp;</span>tab</p>
+
+      
+  
+
+      
+  
+    
+    <section class="summary-subsection">
+      <h3 class="summary-subtitle">Author:</h3>
+      <ul class="subsection-details">
+        
+          <li><p>James Stanger</p>
+</li>
+        
+      </ul>
+    </section>
+  
+
+      
+  
+
+    </div>
+  
+
+  </div>
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  
+  
+    
+
+    <div data-item-section="examples">
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Example</span>
+      </h3>
+
+      
+        
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <div class="example">
+    <div class="example-code">
+      
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            markup
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-markup">&lt;li class=&quot;smart-tabs--tab smart-tabs--activeTab&quot;&gt;...&lt;/li&gt;</code></pre>
+    </div>
+  
+
+    </div>
+
+    
+  </div>
+
+      
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+    
+  <div data-item-section="requires">
+    
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Requires</span>
+        
+      </h3>
+    
+
+    
+      
+      
+        
+        
+        
+
+        
+          
+          
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  <div class="param-list">
+    <h4 class="param-title">
+      
+      
+        <a href="
+  configuration.html#variable--theme-generic" class="item-name">$theme-generic</a>
+      
+      
+      <span class="value-type">(Color)</span>
+      
+    </h4>
+
+    
+  </div>
+
+
+        
+      
+    
+  </div>
+
+  
+    
+  
+
+  
+
+  
+  
+
+
+  
+  
+
+  
+  
+
+</section>
+
+  
+
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="assets/webpack/runtime.min.js"></script>
+  <script type="text/javascript" src="assets/webpack/common.min.js"></script>
+  <script type="text/javascript" src="assets/webpack/app.min.js"></script>
+  
+</body>
+</html>

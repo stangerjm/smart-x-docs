@@ -1,0 +1,42 @@
+{% set items = [
+        { 'itemTitle': 'Home', 'linkPath': '/' },
+        { 'itemTitle': 'People', 'linkPath': '/people' },
+        { 'itemTitle': 'More', 'linkPath': '#',
+            'inlineItems':
+            [
+                { 'itemTitle': 'Be a Trooper','linkPath':'#' },
+                { 'itemTitle': 'Media', 'linkPath': '#' }
+            ]
+        },
+        { 'itemTitle': 'Links', 'linkPath': '#',
+            'inlineItems':
+            [
+                { 'itemTitle': 'breathtest', 'linkPath': '#' },
+                { 'itemTitle': 'wsp.wa.gov', 'linkPath': '#' },
+                { 'itemTitle': 'Google', 'linkPath': '#' }
+            ]
+        },
+        { 'itemTitle': 'Contact', 'linkPath': '#'}
+    ]
+%}
+
+<div class="block-navList">
+    <div class="block-navList--expand">
+        <div class="block-navList--expandLine"></div>
+        <div class="block-navList--expandLine"></div>
+        <div class="block-navList--expandLine"></div>
+    </div>
+    <ul class="block-navList--list">
+        {% for item in items %}
+            <li class="block-navList--item">
+                {% if item.inlineItems %}
+                    <a href="{{ item.linkPath }}" class="bit-link block-navList--sublistHeading">{{ item.itemTitle }}</a>
+                    {% set inlineItems = item.inlineItems %}
+                    {% include 'bit-dropList.njk' %}
+                {% else %}
+                    <a href="{{ item.linkPath }}" class="bit-link">{{ item.itemTitle }}</a>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+</div>

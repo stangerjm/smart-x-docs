@@ -1,0 +1,8 @@
+{% if not inputClass %}
+  {% set inputClass = 'bit-input' %}
+{% endif %}
+
+<div class="{{ inputClass }}">
+    <label class="bit-input--label" for="{{ key }}">{{ key }}</label>
+    <input class="bit-input--field" id="{{ key }}" type="{{ type }}" value="{{ value }}">
+</div>

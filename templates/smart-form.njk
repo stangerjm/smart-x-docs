@@ -1,0 +1,24 @@
+{% if not items %}
+    {%
+        set items = [
+            {key: 'Name', value: 'James', type: 'text'},
+            {key: 'Age', value: 24, type: 'number'},
+            {key: 'Position', value: 'ITS3', type: 'text'}
+        ]
+    %}
+{% endif %}
+
+<form action="#" class="smart-form">
+    <header class="smart-form--titleSection">
+        <h3 class="smart-form--title">Edit</h3>
+    </header>
+    <section class="smart-form--fieldSection">
+        {% for item in items %}
+            {% set key = item.key %}
+            {% set value = item.value %}
+            {% set type = item.type %}
+            {% set inputClass = 'smart-form--field bit-input-stacked' %}
+            {% include 'bit-input.njk' %}
+        {% endfor %}
+    </section>
+</form>

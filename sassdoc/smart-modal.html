@@ -1,0 +1,2569 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <title>smart-modal | Smart-X-Styles Documentation</title>
+
+  <link href="assets/img/favicon.ico" rel="shortcut icon">
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600|Source+Sans+Pro:400,400i,700,700i" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/webpack/app_styles.min.css" />
+
+  
+
+  
+    <!-- Custom trackingCode -->
+    <script src="/smart-x-sass/herman-overrides.js"></script>
+  
+</head>
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" hidden>
+  <symbol id="icon-logo" viewBox="0 0 16 16">
+    <path d="M.2 8L0 7.8v-.2C.8 6.9 1.9 5.9 2.7 5l.4.3c-.5.8-1.1 1.6-1.8 2.3 1 1.2 1 1.3 1.7 2.4l-.4.3c-.4-.4-.5-.6-1-1C1 8.6 1.1 8.7.2 8zM13 10c.6-1.1.7-1.1 1.7-2.4-.6-.6-1.3-1.5-1.7-2.3l.3-.3c.8.8 1.8 1.8 2.7 2.6v.2l-.8.7c-.3.3-1.2 1.1-1.8 1.7L13 10z"/><path d="M2.6 13.1H3c.9 0 1.1-.2 1.1-1.4V4.2c0-1.1-.2-1.4-1.1-1.4h-.4v-.6h4.5v.7h-.3c-.9 0-1.1.2-1.1 1.4v3.2h4.6V4.2c0-1.1-.2-1.4-1.1-1.4h-.3v-.6h4.5v.7H13c-.9 0-1.1.2-1.1 1.4v7.5c0 1.1.2 1.4 1.1 1.4h.4v.7H8.9v-.7h.3c.9 0 1.1-.2 1.1-1.4V8.2H5.7v3.5c0 1.1.2 1.4 1.1 1.4h.3v.7H2.6v-.7z"/>
+  </symbol>
+  <symbol id="icon-menu" viewBox="0 0 24 28">
+    <path d="M24 21v2c0 .547-.453 1-1 1H1c-.547 0-1-.453-1-1v-2c0-.547.453-1 1-1h22c.547 0 1 .453 1 1zm0-8v2c0 .547-.453 1-1 1H1c-.547 0-1-.453-1-1v-2c0-.547.453-1 1-1h22c.547 0 1 .453 1 1zm0-8v2c0 .547-.453 1-1 1H1c-.547 0-1-.453-1-1V5c0-.547.453-1 1-1h22c.547 0 1 .453 1 1z"/>
+  </symbol>
+</svg>
+
+  <div data-region="app">
+    <header data-region="banner">
+      
+  <button data-nav-toggle data-toggle="button" aria-controls="nav" aria-pressed="false" type="button" data-toggle-synced="false">
+    
+  <svg data-icon="menu" data-icon-size="nav-icon" ><title>menu</title><use xlink:href="#icon-menu" />
+  </svg>
+
+  </button>
+
+
+      <div class="project-title">
+        <a href="index.html" rel="home" class="project-name">Smart-X-Styles</a>
+        
+          <span class="project-version">1.0.0</span>
+        
+      </div>
+    </header>
+
+    <div data-region="container">
+      
+  <nav data-region="nav" data-toggle="target" id="nav" data-target-id="nav" aria-expanded="false" data-auto-closing="false" data-auto-closing-on-any-click="false">
+    <form action="search.html">
+      <input type="text" name="q" placeholder="Search…" required minlength="3">
+    </form>
+
+    <div class="nav-subsection">
+      <h3 class="nav-home">
+        
+        <a href="index.html" data-nav="is-not-active">Smart-X-Styles</a>
+      </h3>
+
+      
+      
+    </div>
+
+    
+    <div class="nav-subsection">
+      <ul>
+  
+  
+    <li class="nav-item">
+      <a href="base.html" data-nav="is-not-active">base</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="bit-buttons.html" data-nav="is-not-active">bit-buttons</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="bit-drop-list.html" data-nav="is-not-active">bit-drop-list</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="bit-icons.html" data-nav="is-not-active">bit-icons</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="bit-input.html" data-nav="is-not-active">bit-input</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="bit-link.html" data-nav="is-not-active">bit-link</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="bit-loading.html" data-nav="is-not-active">bit-loading</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="block-action-container.html" data-nav="is-not-active">block-action-container</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="block-multi-select.html" data-nav="is-not-active">block-multi-select</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="block-nav-list.html" data-nav="is-not-active">block-nav-list</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="configuration.html" data-nav="is-not-active">configuration</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="layout.html" data-nav="is-not-active">layout</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="mixins.html" data-nav="is-not-active">mixins</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="smart-accordion.html" data-nav="is-not-active">smart-accordion</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="smart-details.html" data-nav="is-not-active">smart-details</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="smart-footer.html" data-nav="is-not-active">smart-footer</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="smart-form.html" data-nav="is-not-active">smart-form</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="smart-modal.html" data-nav="is-active">smart-modal</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="smart-nav.html" data-nav="is-not-active">smart-nav</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="smart-search.html" data-nav="is-not-active">smart-search</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="smart-table.html" data-nav="is-not-active">smart-table</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="smart-tabs.html" data-nav="is-not-active">smart-tabs</a>
+    </li>
+  
+  
+    <li class="nav-item">
+      <a href="variables.html" data-nav="is-not-active">variables</a>
+    </li>
+  </ul>
+    </div>
+
+    
+    
+
+    
+      <aside class="footer-credit">
+        <a href="http://oddbird.net/herman/" class="footer-icon">
+          
+  <svg data-icon="logo" data-icon-size="footer-logo" ><use xlink:href="#icon-logo" />
+  </svg>
+
+        </a>
+        <span>
+          Documented with
+          <a href="http://oddbird.net/herman/" class="footer-link">
+            Herman
+          </a>
+        </span>
+        <span>
+          by
+          <a href="http://oddbird.net/" class="footer-link">
+            OddBird
+          </a>
+        </span>
+      </aside>
+    
+  </nav>
+
+
+      <main data-region="main">
+        
+  <nav class="breadcrumb">
+    
+    <a href="index.html" >Smart-X-Styles</a> »
+    <strong>smart-modal</strong>
+  </nav>
+
+
+        <div data-page="smart-modal">
+          
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+<section class="item" id="css--.smart-modal">
+  
+    
+  
+  
+
+  
+  
+  
+  
+
+  <div data-item-section="header">
+    <h2 class="item-title">
+      
+        <span class="item-type"></span>
+      
+
+      
+        <a href="#css--.smart-modal" class="item-name">.smart-modal</a>
+      
+
+      
+
+      
+    </h2>
+
+    
+  
+
+
+    
+    
+    
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            scss
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-scss">.smart-modal {
+  /* Hide by default */
+  display: none;
+
+  position: fixed;
+  z-index: $level-100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+
+  /* fallback color */
+  background-color: $theme-black;
+  background-color: rgba($theme-black, 0.5);
+}</code></pre>
+    </div>
+  
+
+    
+  
+  
+  
+  
+
+  
+    <div class="text-block">
+      <p>Defines an overlay container that will deny access to the UI while the modal is open.
+<br> *Note: this component is hidden by default. The example below is displayed by default for demonstration purposes<span class="widont">&nbsp;</span>only.</p>
+
+      
+  
+
+      
+  
+    
+    <section class="summary-subsection">
+      <h3 class="summary-subtitle">Author:</h3>
+      <ul class="subsection-details">
+        
+          <li><p>James Stanger</p>
+</li>
+        
+      </ul>
+    </section>
+  
+
+      
+  
+
+    </div>
+  
+
+  </div>
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  
+  
+    
+
+    <div data-item-section="examples">
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Example</span>
+      </h3>
+
+      
+        
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <div class="example">
+    <div class="example-code">
+      
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            njk
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-jinja">{% include &#39;smart-modal.njk&#39; %}</code></pre>
+    </div>
+  
+
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            html
+          </span>
+
+          
+            <span class='code-description'>
+              compiled
+            </span>
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-html">&lt;!-- NOTE: The modal should not be shown explicitly as below. This is for demonstration purposes only --&gt;
+&lt;section class=&quot;smart-modal&quot; style=&quot;display: block&quot;&gt;
+  &lt;div class=&quot;smart-modal--content&quot;&gt;
+    &lt;header class=&quot;smart-modal--head&quot;&gt;
+      &lt;button class=&quot;smart-modal--close&quot; type=&quot;button&quot;&gt;x&lt;/button&gt;
+       &lt;h3 class=&quot;smart-modal--title&quot;&gt;My Modal&lt;/h3&gt;
+    &lt;/header&gt;
+    &lt;article class=&quot;smart-modal--body&quot;&gt;
+      &lt;p&gt;Your content goes here!&lt;/p&gt;
+    &lt;/article&gt;
+    &lt;footer class=&quot;smart-modal--footer&quot;&gt;
+      &lt;button class=&quot;smart-modal--footerItem bit-btn bit-btn-clickable&quot;&gt;Submit&lt;/button&gt;
+      &lt;button class=&quot;smart-modal--footerItem smart-modal--close bit-btn bit-btn-clickable&quot; type=&quot;button&quot;&gt;Close&lt;/button&gt;
+    &lt;/footer&gt;
+  &lt;/div&gt;
+&lt;/section&gt;</code></pre>
+    </div>
+  
+
+    </div>
+
+    
+      <div class="example-render">
+        <iframe class="render-example" srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  &lt;base target=&quot;_parent&quot;&gt;
+
+  &lt;title&gt;example&lt;/title&gt;
+
+  
+
+  
+    &lt;!-- Custom CSS --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/custom/styles.css&quot; /&gt;
+  
+&lt;/head&gt;
+&lt;body class=&quot;sassdoc&quot;&gt;
+  
+  &lt;!-- NOTE: The modal should not be shown explicitly as below. This is for demonstration purposes only --&gt;
+&lt;section class=&quot;smart-modal&quot; style=&quot;display: block&quot;&gt;
+  &lt;div class=&quot;smart-modal--content&quot;&gt;
+    &lt;header class=&quot;smart-modal--head&quot;&gt;
+      &lt;button class=&quot;smart-modal--close&quot; type=&quot;button&quot;&gt;x&lt;/button&gt;
+       &lt;h3 class=&quot;smart-modal--title&quot;&gt;My Modal&lt;/h3&gt;
+    &lt;/header&gt;
+    &lt;article class=&quot;smart-modal--body&quot;&gt;
+      &lt;p&gt;Your content goes here!&lt;/p&gt;
+    &lt;/article&gt;
+    &lt;footer class=&quot;smart-modal--footer&quot;&gt;
+      &lt;button class=&quot;smart-modal--footerItem bit-btn bit-btn-clickable&quot;&gt;Submit&lt;/button&gt;
+      &lt;button class=&quot;smart-modal--footerItem smart-modal--close bit-btn bit-btn-clickable&quot; type=&quot;button&quot;&gt;Close&lt;/button&gt;
+    &lt;/footer&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+" width="100%" height="0"></iframe>
+      </div>
+    
+  </div>
+
+      
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+    
+  <div data-item-section="requires">
+    
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Requires</span>
+        
+      </h3>
+    
+
+    
+      
+      
+        
+        
+        
+
+        
+          
+          
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  <div class="param-list">
+    <h4 class="param-title">
+      
+      
+        <a href="
+  variables.html#variable--level-100" class="item-name">$level-100</a>
+      
+      
+      <span class="value-type">(Number)</span>
+      
+    </h4>
+
+    
+  </div>
+
+
+        
+      
+        
+        
+        
+
+        
+          
+          
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  <div class="param-list">
+    <h4 class="param-title">
+      
+      
+        <a href="
+  configuration.html#variable--theme-black" class="item-name">$theme-black</a>
+      
+      
+      <span class="value-type">(Color)</span>
+      
+    </h4>
+
+    
+  </div>
+
+
+        
+      
+    
+  </div>
+
+  
+    
+  
+
+  
+
+  
+  
+
+
+  
+  
+
+  
+  
+
+</section>
+
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+<section class="item" id="css--.smart-modal--content">
+  
+    
+  
+  
+
+  
+  
+  
+  
+
+  <div data-item-section="header">
+    <h2 class="item-title">
+      
+        <span class="item-type"></span>
+      
+
+      
+        <a href="#css--.smart-modal--content" class="item-name">.smart-modal--content</a>
+      
+
+      
+
+      
+    </h2>
+
+    
+  
+
+
+    
+    
+    
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            scss
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-scss">.smart-modal--content {
+  position: fixed;
+  background: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  max-height: 95vh;
+  overflow: auto;
+
+  @media screen and (max-width: 820px) {
+    width: 80%;
+  }
+}</code></pre>
+    </div>
+  
+
+    
+  
+  
+  
+  
+
+  
+    <div class="text-block">
+      <p>Defines a sub-container that will center the modal in the middle of the<span class="widont">&nbsp;</span>overlay.</p>
+
+      
+  
+
+      
+  
+    
+    <section class="summary-subsection">
+      <h3 class="summary-subtitle">Author:</h3>
+      <ul class="subsection-details">
+        
+          <li><p>James Stanger</p>
+</li>
+        
+      </ul>
+    </section>
+  
+
+      
+  
+
+    </div>
+  
+
+  </div>
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  
+  
+    
+
+    <div data-item-section="examples">
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Example</span>
+      </h3>
+
+      
+        
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <div class="example">
+    <div class="example-code">
+      
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            njk
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-jinja">{% include &#39;smart-modal.njk&#39; %}</code></pre>
+    </div>
+  
+
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            html
+          </span>
+
+          
+            <span class='code-description'>
+              compiled
+            </span>
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-html">&lt;!-- NOTE: The modal should not be shown explicitly as below. This is for demonstration purposes only --&gt;
+&lt;section class=&quot;smart-modal&quot; style=&quot;display: block&quot;&gt;
+  &lt;div class=&quot;smart-modal--content&quot;&gt;
+    &lt;header class=&quot;smart-modal--head&quot;&gt;
+      &lt;button class=&quot;smart-modal--close&quot; type=&quot;button&quot;&gt;x&lt;/button&gt;
+       &lt;h3 class=&quot;smart-modal--title&quot;&gt;My Modal&lt;/h3&gt;
+    &lt;/header&gt;
+    &lt;article class=&quot;smart-modal--body&quot;&gt;
+      &lt;p&gt;Your content goes here!&lt;/p&gt;
+    &lt;/article&gt;
+    &lt;footer class=&quot;smart-modal--footer&quot;&gt;
+      &lt;button class=&quot;smart-modal--footerItem bit-btn bit-btn-clickable&quot;&gt;Submit&lt;/button&gt;
+      &lt;button class=&quot;smart-modal--footerItem smart-modal--close bit-btn bit-btn-clickable&quot; type=&quot;button&quot;&gt;Close&lt;/button&gt;
+    &lt;/footer&gt;
+  &lt;/div&gt;
+&lt;/section&gt;</code></pre>
+    </div>
+  
+
+    </div>
+
+    
+      <div class="example-render">
+        <iframe class="render-example" srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  &lt;base target=&quot;_parent&quot;&gt;
+
+  &lt;title&gt;example&lt;/title&gt;
+
+  
+
+  
+    &lt;!-- Custom CSS --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/custom/styles.css&quot; /&gt;
+  
+&lt;/head&gt;
+&lt;body class=&quot;sassdoc&quot;&gt;
+  
+  &lt;!-- NOTE: The modal should not be shown explicitly as below. This is for demonstration purposes only --&gt;
+&lt;section class=&quot;smart-modal&quot; style=&quot;display: block&quot;&gt;
+  &lt;div class=&quot;smart-modal--content&quot;&gt;
+    &lt;header class=&quot;smart-modal--head&quot;&gt;
+      &lt;button class=&quot;smart-modal--close&quot; type=&quot;button&quot;&gt;x&lt;/button&gt;
+       &lt;h3 class=&quot;smart-modal--title&quot;&gt;My Modal&lt;/h3&gt;
+    &lt;/header&gt;
+    &lt;article class=&quot;smart-modal--body&quot;&gt;
+      &lt;p&gt;Your content goes here!&lt;/p&gt;
+    &lt;/article&gt;
+    &lt;footer class=&quot;smart-modal--footer&quot;&gt;
+      &lt;button class=&quot;smart-modal--footerItem bit-btn bit-btn-clickable&quot;&gt;Submit&lt;/button&gt;
+      &lt;button class=&quot;smart-modal--footerItem smart-modal--close bit-btn bit-btn-clickable&quot; type=&quot;button&quot;&gt;Close&lt;/button&gt;
+    &lt;/footer&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+" width="100%" height="0"></iframe>
+      </div>
+    
+  </div>
+
+      
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+    
+  
+
+  
+
+  
+  
+
+
+  
+  
+
+  
+  
+
+</section>
+
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+<section class="item" id="css--.smart-modal--head">
+  
+    
+  
+  
+
+  
+  
+  
+  
+
+  <div data-item-section="header">
+    <h2 class="item-title">
+      
+        <span class="item-type"></span>
+      
+
+      
+        <a href="#css--.smart-modal--head" class="item-name">.smart-modal--head</a>
+      
+
+      
+
+      
+    </h2>
+
+    
+  
+
+
+    
+    
+    
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            scss
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-scss">.smart-modal--head {
+  background: $theme-generic;
+  padding: 5px;
+  text-align: right;
+}</code></pre>
+    </div>
+  
+
+    
+  
+  
+  
+  
+
+  
+    <div class="text-block">
+      <p>Defines a header container for the<span class="widont">&nbsp;</span>modal.</p>
+
+      
+  
+
+      
+  
+    
+    <section class="summary-subsection">
+      <h3 class="summary-subtitle">Author:</h3>
+      <ul class="subsection-details">
+        
+          <li><p>James Stanger</p>
+</li>
+        
+      </ul>
+    </section>
+  
+
+      
+  
+
+    </div>
+  
+
+  </div>
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  
+  
+    
+
+    <div data-item-section="examples">
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Example</span>
+      </h3>
+
+      
+        
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <div class="example">
+    <div class="example-code">
+      
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            html
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-html">&lt;header class=&quot;smart-modal--head&quot;&gt;
+  &lt;button class=&quot;smart-modal--close&quot; type=&quot;button&quot;&gt;x&lt;/button&gt;
+  &lt;h3 class=&quot;smart-modal--title&quot;&gt;My Modal&lt;/h3&gt;
+&lt;/header&gt;</code></pre>
+    </div>
+  
+
+    </div>
+
+    
+      <div class="example-render">
+        <iframe class="render-example" srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  &lt;base target=&quot;_parent&quot;&gt;
+
+  &lt;title&gt;example&lt;/title&gt;
+
+  
+
+  
+    &lt;!-- Custom CSS --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/custom/styles.css&quot; /&gt;
+  
+&lt;/head&gt;
+&lt;body class=&quot;sassdoc&quot;&gt;
+  
+  &lt;header class=&quot;smart-modal--head&quot;&gt;
+  &lt;button class=&quot;smart-modal--close&quot; type=&quot;button&quot;&gt;x&lt;/button&gt;
+   &lt;h3 class=&quot;smart-modal--title&quot;&gt;My Modal&lt;/h3&gt;
+
+&lt;/header&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+" width="100%" height="0"></iframe>
+      </div>
+    
+  </div>
+
+      
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+    
+  <div data-item-section="requires">
+    
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Requires</span>
+        
+      </h3>
+    
+
+    
+      
+      
+        
+        
+        
+
+        
+          
+          
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  <div class="param-list">
+    <h4 class="param-title">
+      
+      
+        <a href="
+  configuration.html#variable--theme-generic" class="item-name">$theme-generic</a>
+      
+      
+      <span class="value-type">(Color)</span>
+      
+    </h4>
+
+    
+  </div>
+
+
+        
+      
+    
+  </div>
+
+  
+    
+  
+
+  
+
+  
+  
+
+
+  
+  
+
+  
+  
+
+</section>
+
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+<section class="item" id="css--.smart-modal--close">
+  
+    
+  
+  
+
+  
+  
+  
+  
+
+  <div data-item-section="header">
+    <h2 class="item-title">
+      
+        <span class="item-type"></span>
+      
+
+      
+        <a href="#css--.smart-modal--close" class="item-name">.smart-modal--close</a>
+      
+
+      
+
+      
+    </h2>
+
+    
+  
+
+
+    
+    
+    
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            scss
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-scss">.smart-modal--close:not(.bit-btn) {
+  height: 30px;
+  width: 45px;
+  padding: 0;
+  background: $theme-generic;
+  border: none;
+  box-shadow: $theme-black 0 0 3px 0;
+  border-radius: 5px;
+}</code></pre>
+    </div>
+  
+
+    
+  
+  
+  
+  
+
+  
+    <div class="text-block">
+      <p>Styles a close button for the modal if button is not also a bit-btn<span class="widont">&nbsp;</span>component.</p>
+
+      
+  
+
+      
+  
+    
+    <section class="summary-subsection">
+      <h3 class="summary-subtitle">Author:</h3>
+      <ul class="subsection-details">
+        
+          <li><p>James Stanger</p>
+</li>
+        
+      </ul>
+    </section>
+  
+
+      
+  
+
+    </div>
+  
+
+  </div>
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  
+  
+    
+
+    <div data-item-section="examples">
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Example</span>
+      </h3>
+
+      
+        
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <div class="example">
+    <div class="example-code">
+      
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            html
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-html">&lt;header class=&quot;smart-modal--head&quot;&gt;
+  &lt;button class=&quot;smart-modal--close&quot; type=&quot;button&quot;&gt;x&lt;/button&gt;
+&lt;/header&gt;</code></pre>
+    </div>
+  
+
+    </div>
+
+    
+      <div class="example-render">
+        <iframe class="render-example" srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  &lt;base target=&quot;_parent&quot;&gt;
+
+  &lt;title&gt;example&lt;/title&gt;
+
+  
+
+  
+    &lt;!-- Custom CSS --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/custom/styles.css&quot; /&gt;
+  
+&lt;/head&gt;
+&lt;body class=&quot;sassdoc&quot;&gt;
+  
+  &lt;header class=&quot;smart-modal--head&quot;&gt;
+  &lt;button class=&quot;smart-modal--close&quot; type=&quot;button&quot;&gt;x&lt;/button&gt;
+&lt;/header&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+" width="100%" height="0"></iframe>
+      </div>
+    
+  </div>
+
+      
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+    
+  <div data-item-section="requires">
+    
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Requires</span>
+        
+      </h3>
+    
+
+    
+      
+      
+        
+        
+        
+
+        
+          
+          
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  <div class="param-list">
+    <h4 class="param-title">
+      
+      
+        <a href="
+  configuration.html#variable--theme-black" class="item-name">$theme-black</a>
+      
+      
+      <span class="value-type">(Color)</span>
+      
+    </h4>
+
+    
+  </div>
+
+
+        
+      
+        
+        
+        
+
+        
+          
+          
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  <div class="param-list">
+    <h4 class="param-title">
+      
+      
+        <a href="
+  configuration.html#variable--theme-generic" class="item-name">$theme-generic</a>
+      
+      
+      <span class="value-type">(Color)</span>
+      
+    </h4>
+
+    
+  </div>
+
+
+        
+      
+    
+  </div>
+
+  
+    
+  
+
+  
+
+  
+  
+
+
+  
+  
+
+  
+  
+
+</section>
+
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+<section class="item" id="css--.smart-modal--title">
+  
+    
+  
+  
+
+  
+  
+  
+  
+
+  <div data-item-section="header">
+    <h2 class="item-title">
+      
+        <span class="item-type"></span>
+      
+
+      
+        <a href="#css--.smart-modal--title" class="item-name">.smart-modal--title</a>
+      
+
+      
+
+      
+    </h2>
+
+    
+  
+
+
+    
+    
+    
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            scss
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-scss">.smart-modal--title {
+  font-size: 35px;
+  margin: 5px 0;
+  text-align: center;
+
+  @media screen and (max-width: 820px) {
+    font-size: 25px;
+  }
+}</code></pre>
+    </div>
+  
+
+    
+  
+  
+  
+  
+
+  
+    <div class="text-block">
+      <p>Sets styles for the title of the<span class="widont">&nbsp;</span>modal</p>
+
+      
+  
+
+      
+  
+    
+    <section class="summary-subsection">
+      <h3 class="summary-subtitle">Author:</h3>
+      <ul class="subsection-details">
+        
+          <li><p>James Stanger</p>
+</li>
+        
+      </ul>
+    </section>
+  
+
+      
+  
+
+    </div>
+  
+
+  </div>
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  
+  
+    
+
+    <div data-item-section="examples">
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Example</span>
+      </h3>
+
+      
+        
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <div class="example">
+    <div class="example-code">
+      
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            html
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-html">&lt;h3 class=&quot;smart-modal--title&quot;&gt;My Modal&lt;/h3&gt;</code></pre>
+    </div>
+  
+
+    </div>
+
+    
+      <div class="example-render">
+        <iframe class="render-example" srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  &lt;base target=&quot;_parent&quot;&gt;
+
+  &lt;title&gt;example&lt;/title&gt;
+
+  
+
+  
+    &lt;!-- Custom CSS --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/custom/styles.css&quot; /&gt;
+  
+&lt;/head&gt;
+&lt;body class=&quot;sassdoc&quot;&gt;
+  
+  &lt;h3 class=&quot;smart-modal--title&quot;&gt;My Modal&lt;/h3&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+" width="100%" height="0"></iframe>
+      </div>
+    
+  </div>
+
+      
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+    
+  
+
+  
+
+  
+  
+
+
+  
+  
+
+  
+  
+
+</section>
+
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+<section class="item" id="css--.smart-modal--warningTitle">
+  
+    
+  
+  
+
+  
+  
+  
+  
+
+  <div data-item-section="header">
+    <h2 class="item-title">
+      
+        <span class="item-type"></span>
+      
+
+      
+        <a href="#css--.smart-modal--warningTitle" class="item-name">.smart-modal--warningTitle</a>
+      
+
+      
+
+      
+    </h2>
+
+    
+  
+
+
+    
+    
+    
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            scss
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-scss">.smart-modal--warningTitle {
+  text-align: center;
+  color: red;
+}</code></pre>
+    </div>
+  
+
+    
+  
+  
+  
+  
+
+  
+    <div class="text-block">
+      <p>Styles an alternative style for the title indicating some sort of<span class="widont">&nbsp;</span>warning</p>
+
+      
+  
+
+      
+  
+    
+    <section class="summary-subsection">
+      <h3 class="summary-subtitle">Author:</h3>
+      <ul class="subsection-details">
+        
+          <li><p>James Stanger</p>
+</li>
+        
+      </ul>
+    </section>
+  
+
+      
+  
+
+    </div>
+  
+
+  </div>
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  
+  
+    
+
+    <div data-item-section="examples">
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Example</span>
+      </h3>
+
+      
+        
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <div class="example">
+    <div class="example-code">
+      
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            html
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-html">&lt;h3 class=&quot;smart-modal--title smart-modal--warningTitle&quot;&gt;My Modal&lt;/h3&gt;</code></pre>
+    </div>
+  
+
+    </div>
+
+    
+      <div class="example-render">
+        <iframe class="render-example" srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  &lt;base target=&quot;_parent&quot;&gt;
+
+  &lt;title&gt;example&lt;/title&gt;
+
+  
+
+  
+    &lt;!-- Custom CSS --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/custom/styles.css&quot; /&gt;
+  
+&lt;/head&gt;
+&lt;body class=&quot;sassdoc&quot;&gt;
+  
+  &lt;h3 class=&quot;smart-modal--title smart-modal--warningTitle&quot;&gt;My Modal&lt;/h3&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+" width="100%" height="0"></iframe>
+      </div>
+    
+  </div>
+
+      
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+    
+  
+
+  
+
+  
+  
+
+
+  
+  
+
+  
+  
+
+</section>
+
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+<section class="item" id="css--.smart-modal--body">
+  
+    
+  
+  
+
+  
+  
+  
+  
+
+  <div data-item-section="header">
+    <h2 class="item-title">
+      
+        <span class="item-type"></span>
+      
+
+      
+        <a href="#css--.smart-modal--body" class="item-name">.smart-modal--body</a>
+      
+
+      
+
+      
+    </h2>
+
+    
+  
+
+
+    
+    
+    
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            scss
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-scss">.smart-modal--body {
+  position: static;
+}</code></pre>
+    </div>
+  
+
+    
+  
+  
+  
+  
+
+  
+    <div class="text-block">
+      <p>Defines the main content container for the modal
+<br> *Note: this container is essential for any UI that uses absolute or fixed positioning inside the<span class="widont">&nbsp;</span>modal.</p>
+
+      
+  
+
+      
+  
+    
+    <section class="summary-subsection">
+      <h3 class="summary-subtitle">Author:</h3>
+      <ul class="subsection-details">
+        
+          <li><p>James Stanger</p>
+</li>
+        
+      </ul>
+    </section>
+  
+
+      
+  
+
+    </div>
+  
+
+  </div>
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  
+  
+    
+
+    <div data-item-section="examples">
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Example</span>
+      </h3>
+
+      
+        
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <div class="example">
+    <div class="example-code">
+      
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            markup
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-markup">&lt;article class=&quot;smart-modal--body&quot;&gt;
+  &lt;!-- CONTENT GOES HERE --&gt;
+&lt;/article&gt;</code></pre>
+    </div>
+  
+
+    </div>
+
+    
+  </div>
+
+      
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+    
+  
+
+  
+
+  
+  
+
+
+  
+  
+
+  
+  
+
+</section>
+
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+<section class="item" id="css--.smart-modal--footer">
+  
+    
+  
+  
+
+  
+  
+  
+  
+
+  <div data-item-section="header">
+    <h2 class="item-title">
+      
+        <span class="item-type"></span>
+      
+
+      
+        <a href="#css--.smart-modal--footer" class="item-name">.smart-modal--footer</a>
+      
+
+      
+
+      
+    </h2>
+
+    
+  
+
+
+    
+    
+    
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            scss
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-scss">.smart-modal--footer {
+  padding: 5px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: $theme-generic;
+}</code></pre>
+    </div>
+  
+
+    
+  
+  
+  
+  
+
+  
+    <div class="text-block">
+      <p>Defines a footer container for the<span class="widont">&nbsp;</span>modal</p>
+
+      
+  
+
+      
+  
+    
+    <section class="summary-subsection">
+      <h3 class="summary-subtitle">Author:</h3>
+      <ul class="subsection-details">
+        
+          <li><p>James Stanger</p>
+</li>
+        
+      </ul>
+    </section>
+  
+
+      
+  
+
+    </div>
+  
+
+  </div>
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  
+  
+    
+
+    <div data-item-section="examples">
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Example</span>
+      </h3>
+
+      
+        
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  <div class="example">
+    <div class="example-code">
+      
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            html
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-html">&lt;footer class=&quot;smart-modal--footer&quot;&gt;
+  &lt;button class=&quot;smart-modal--footerItem bit-btn bit-btn-clickable&quot;&gt;Submit&lt;/button&gt;
+  &lt;button class=&quot;smart-modal--footerItem smart-modal--close bit-btn bit-btn-clickable&quot; type=&quot;button&quot;&gt;Close&lt;/button&gt;
+&lt;/footer&gt;</code></pre>
+    </div>
+  
+
+    </div>
+
+    
+      <div class="example-render">
+        <iframe class="render-example" srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  &lt;base target=&quot;_parent&quot;&gt;
+
+  &lt;title&gt;example&lt;/title&gt;
+
+  
+
+  
+    &lt;!-- Custom CSS --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/custom/styles.css&quot; /&gt;
+  
+&lt;/head&gt;
+&lt;body class=&quot;sassdoc&quot;&gt;
+  
+  &lt;footer class=&quot;smart-modal--footer&quot;&gt;
+  &lt;button class=&quot;smart-modal--footerItem bit-btn bit-btn-clickable&quot;&gt;Submit&lt;/button&gt;
+  &lt;button class=&quot;smart-modal--footerItem smart-modal--close bit-btn bit-btn-clickable&quot; type=&quot;button&quot;&gt;Close&lt;/button&gt;
+&lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+" width="100%" height="0"></iframe>
+      </div>
+    
+  </div>
+
+      
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+    
+  <div data-item-section="requires">
+    
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Requires</span>
+        
+      </h3>
+    
+
+    
+      
+      
+        
+        
+        
+
+        
+          
+          
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  <div class="param-list">
+    <h4 class="param-title">
+      
+      
+        <a href="
+  configuration.html#variable--theme-generic" class="item-name">$theme-generic</a>
+      
+      
+      <span class="value-type">(Color)</span>
+      
+    </h4>
+
+    
+  </div>
+
+
+        
+      
+    
+  </div>
+
+  
+    
+  
+
+  
+
+  
+  
+
+
+  
+  
+
+  
+  
+
+</section>
+
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+<section class="item" id="css--.smart-modal--footerItem">
+  
+    
+  
+  
+
+  
+  
+  
+  
+
+  <div data-item-section="header">
+    <h2 class="item-title">
+      
+        <span class="item-type"></span>
+      
+
+      
+        <a href="#css--.smart-modal--footerItem" class="item-name">.smart-modal--footerItem</a>
+      
+
+      
+
+      
+    </h2>
+
+    
+  
+
+
+    
+    
+    
+  
+    <div class="code-block">
+      
+        <div class="code-header">
+          <span class="code-language">
+            scss
+          </span>
+
+          
+        </div>
+      
+
+      
+      
+      <pre class="hljs-pre"><code class="lang-scss">.smart-modal--footerItem {
+  margin: 0 5px;
+}</code></pre>
+    </div>
+  
+
+    
+  
+  
+  
+  
+
+  
+    <div class="text-block">
+      <p>Styles a single item in the modal<span class="widont">&nbsp;</span>footer</p>
+
+      
+  
+
+      
+  
+    
+    <section class="summary-subsection">
+      <h3 class="summary-subtitle">Author:</h3>
+      <ul class="subsection-details">
+        
+          <li><p>James Stanger</p>
+</li>
+        
+      </ul>
+    </section>
+  
+
+      
+  
+
+    </div>
+  
+
+  </div>
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  
+  
+
+
+  
+
+    
+  <div data-item-section="related">
+    
+      <h3 class="item-subtitle">
+        <span class="item-subtitle-main">Related</span>
+        
+      </h3>
+    
+
+    
+      
+
+      
+        
+  
+  
+  
+  
+  
+
+  
+  <div class="param-list">
+    <h4 class="param-title">
+      
+      
+        <a href="
+  smart-modal.html#css--.smart-modal--footer" class="item-name">.smart-modal--footer</a>
+      
+      
+      
+      
+    </h4>
+
+    
+  </div>
+
+
+      
+    
+  </div>
+
+  
+  
+  
+  
+    
+    
+  
+
+  
+
+  
+  
+
+
+  
+  
+
+  
+  
+
+</section>
+
+  
+
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="assets/webpack/runtime.min.js"></script>
+  <script type="text/javascript" src="assets/webpack/common.min.js"></script>
+  <script type="text/javascript" src="assets/webpack/app.min.js"></script>
+  
+</body>
+</html>

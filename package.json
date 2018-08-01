@@ -1,0 +1,23 @@
+{
+  "name": "Smart-X-Styles",
+  "version": "1.0.0",
+  "description": "Smart-X Styles",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-jsbeautifier": "^2.1.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "node-sass": "^4.9.2",
+    "sassdoc": "^2.5.0",
+    "sassdoc-theme-herman": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "npm run sass && npm run docs",
+    "docs": "npx sassdoc sass",
+    "sass": "gulp sass"
+  },
+  "author": "James Stanger",
+  "license": "MIT"
+}

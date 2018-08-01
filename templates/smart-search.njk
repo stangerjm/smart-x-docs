@@ -1,0 +1,26 @@
+{% if isExpanded %}
+    {% set actionClass = "bit-icon-exit" %}
+    {% set heightStyle = "height: 115px" %}
+    {% set state = "Expanded" %}
+{% else %}
+    {% set actionClass = "bit-icon-search" %}
+    {% set fieldClass = "is-hidden" %}
+    {% set state = "Collapsed" %}
+{% endif %}
+
+<form action="#" class="smart-search">
+    <header class="smart-search--heading">
+        <h2 class="smart-search--title">Search - {{ state }} State</h2>
+        <span class="smart-search--action {{ actionClass }}"></span>
+    </header>
+    <!-- NOTE: The style attribute below SHOULD NOT be set in a real application. This is for demonstration purposes only. -->
+    <div class="smart-search--fieldContainer {{ fieldClass }}" style="{{ heightStyle }}">
+        <div class="smart-search--toggleContainer">
+            {% set inputClass = 'smart-search--field bit-input' %}
+            {% set key = 'Name' %}
+            {% set type = 'text' %}
+            {% include 'bit-input.njk' %}
+            <button class="bit-btn bit-btn-search" type="submit">Search</button>
+        </div>
+    </div>
+</form>
