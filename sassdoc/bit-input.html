@@ -291,6 +291,11 @@
   display: flex;
   align-items: center;
 
+  &gt; .bit-input--label {
+    /* Right align bit-inputs that are NOT stacked */
+    text-align: right;
+  }
+
   @media screen and (max-width: $break-xs) {
     @include stack-input();
   }
@@ -926,9 +931,9 @@
       
       
       <pre class="hljs-pre"><code class="lang-scss">.bit-input--label {
-  margin: 5px 10px 5px 0;
+  margin-right: 10px;
   display: inline-block;
-  flex: 0 125px;
+  flex: 0 150px;
 }</code></pre>
     </div>
   

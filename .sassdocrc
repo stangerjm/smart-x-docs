@@ -2,10 +2,10 @@
 theme: herman
 trackingCode: '<script src="/smart-x-sass/herman-overrides.js"></script>'
 herman:
-  customCSS: 'dist/styles.css'
+  customCSS: 'styles/dist/styles.css'
   sass:
     includepaths:
-      - './sass'
+      - './styles/sass'
     includes:
       - 'global/mixins'
   nunjucks:

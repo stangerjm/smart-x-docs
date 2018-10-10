@@ -14,9 +14,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build": "npm run sass && npm run docs",
-    "docs": "npx sassdoc sass",
-    "sass": "gulp sass"
+    "build": "npx sassdoc styles/sass"
   },
   "author": "James Stanger",
   "license": "MIT"
